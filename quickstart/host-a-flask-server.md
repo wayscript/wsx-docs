@@ -1,4 +1,4 @@
-# Host a Flask app
+# Host a Flask server
 
 WayScript X allows you to configure your Lair to host a Flask app in minutes.
 
@@ -44,7 +44,7 @@ $ FLASK_APP=main.py FLASK_ENV=development flask run --port 8080
 
 ### Test app in development environment
 
-Press “Run” to push your files to remote \(see [File system](../building-tools/file-system.md) for more details\), execute the run command and start your web server process \(see [Processes](../testing-and-visiblity/untitled.md) for more details\). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
+Press “Run” to push your files to remote \(see [File system](../building-tools/file-system.md) for more details\), execute the run command and start your web server process \(see [Processes](../testing-and-visiblity/processes.md) for more details\). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
 
 ![](../.gitbook/assets/screen-shot-2021-09-14-at-2.00.30-pm.png)
 

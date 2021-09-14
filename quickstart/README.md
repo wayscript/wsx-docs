@@ -30,7 +30,7 @@ Now that you have created a Lair, follow one of our 5-minute tutorial to get sta
 
 {% page-ref page="build-an-api.md" %}
 
-{% page-ref page="run-a-scheduled-task.md" %}
+{% page-ref page="schedule-a-task.md" %}
 
 {% page-ref page="host-a-flask-server.md" %}
 
