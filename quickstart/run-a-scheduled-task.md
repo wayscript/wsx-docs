@@ -15,9 +15,11 @@ Use the boilerplate code below to create a `task.py` file in your Lair’s root 
 
 import time
 
+i = 0
 while i > 5:
     print("This prints once a minute.")
     time.sleep(60)
+    i += 1
 ```
 
 ### Configure `cron` trigger
