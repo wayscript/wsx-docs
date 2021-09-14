@@ -4,8 +4,9 @@ As your process executes, WayScript X generates a log file that captures the Std
 
 ### Viewing process logs
 
-Your process logs can be accessed by selecting a row in the process list \(see [Processes](untitled.md) for how to view your processes\), which will open a tab next to your Lair’s terminal window.  
-\[Image of log panel for specific process\]
+Your process logs can be accessed by selecting a row in the process list \(see [Processes](untitled.md) for how to view your processes\), which will open a tab next to your Lair’s terminal window.
+
+![](../.gitbook/assets/screen-shot-2021-09-14-at-3.00.00-pm.png)
 
 #### **Running processes**
 
