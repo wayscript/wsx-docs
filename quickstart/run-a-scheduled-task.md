@@ -17,8 +17,7 @@ import time
 
 i = 0
 while i < 5:
-    print("This prints once a minute.")
-    time.sleep(60)
+    print("This prints five times.")
     i += 1
 ```
 
