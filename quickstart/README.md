@@ -24,7 +24,7 @@ Select “+ New Lair” to create your first Lair!
 
 ![](../.gitbook/assets/screen-shot-2021-09-14-at-1.50.08-pm.png)
 
-### **4\)** Build your first tool 
+### **4\)** Build your first tool! 
 
 Now that you have created a Lair, follow one of our 5-minute tutorial to get started building tools on WayScript X:
 
