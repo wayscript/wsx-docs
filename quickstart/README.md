@@ -10,8 +10,9 @@ WayScript X is currently in closed beta release. To request early access, please
 
 ### **2\) Create a workspace & choose workspace directory**
 
-Enter a name for your workspace. See [Configuring your workspace](../configuring-your-workspace.md) for more details on workspaces.  
-\[image to create workspace\]
+Enter a name for your workspace. See [Configuring your workspace](../configuring-your-workspace.md) for more details on workspaces.
+
+![](../.gitbook/assets/env-1%20%281%29.png)
 
 The WayScript X desktop app will create files on your local machine and sync them to a remote server. Set a location for your workspace file system.
 
@@ -20,6 +21,8 @@ The WayScript X desktop app will create files on your local machine and sync the
 ### **3\) Add a Lair**
 
 Select “+ New Lair” to create your first Lair!
+
+![](../.gitbook/assets/screen-shot-2021-09-14-at-1.50.08-pm.png)
 
 ### **4\)** Build your first tool 
 

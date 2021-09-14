@@ -5,7 +5,7 @@ Your Lair can be configured with triggers that can execute processes through int
 **Internal triggers**
 
 * `cron` - invoke process on schedule
-* `on deploy` - invoke process when Lair is deployed
+* `deploy` - invoke process when Lair is deployed
 
 **External triggers**
 
