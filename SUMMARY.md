@@ -24,7 +24,7 @@
 
 ## Managing Tools
 
-* [Hosted environments](managing-tools/deployments.md)
+* [Hosted environments](managing-tools/environments.md)
 * [Self-hosting options](managing-tools/self-hosting-options.md)
 * [Security](managing-tools/security.md)
 

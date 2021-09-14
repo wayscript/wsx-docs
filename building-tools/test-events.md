@@ -4,7 +4,7 @@ Events are data payloads that are passed to your processes when your Lair’s tr
 
 ### Access**ing** events within your Lair
 
-Events can be accessed using WayScript X’s context package. Simple import the package and call `get_event()` to output your event data \(see [SDK](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/SDK_suCOP) for more details\). The event will be returned as a json dictionary object.
+Events can be accessed using WayScript X’s `context` package. Simply import the package and call `get_event()` to output your event data \(see [SDK](sdk.md) for more details\). The event will be returned as a json dictionary object.
 
 **Import** **context** **package and get event**
 
@@ -75,5 +75,5 @@ Select your `json` file in the trigger configuration to use the test event. You 
 
 #### **Passing test event data to your processes**
 
-Test events are only passed to your process on manual invocations of your Lair’s triggers. Please see [Triggers](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Triggers_suAFX) for more details.  
+Test events are only passed to your process on manual invocations of your Lair’s triggers. Please see [Triggers](triggers.md) for more details.  
 

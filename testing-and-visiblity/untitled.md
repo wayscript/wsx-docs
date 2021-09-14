@@ -6,11 +6,11 @@ Your Lair is built to execute processes from its files, triggers, or events. Whe
 
 A process can be executed in the following ways:
 
-* Manual invocation of a trigger - see [Triggers](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Triggers_suAFX) for more details
-* Event-based invocation of a trigger - see [Triggers](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Triggers_suAFX) for more details
+* Manual invocation of a trigger - see [Triggers](../building-tools/triggers.md) for more details
+* Event-based invocation of a trigger - see [Triggers](../building-tools/triggers.md) for more details
 * Through the Lair terminal
-  * Run command entered into the terminal - see [Terminal](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Terminal_sucNv) for more details
-  * Play button on a code file - see [Terminal](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Terminal_sucNv) for more details
+  * Run command entered into the terminal - see [Terminal](terminal.md) for more details
+  * Play button on a code file - see [Terminal](terminal.md) for more details
 
 {% hint style="info" %}
 Your processes are executed against your Lair’s remote file system, not the files on your local machine. If your process execution does not reflect file changes made locally, you must first “Push” your file system.

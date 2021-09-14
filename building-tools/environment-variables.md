@@ -49,5 +49,5 @@ BAZ = os.environ['BAZ'] # KeyError: key does not exist.
 
 #### Security considerations
 
-Your `.secrets` file is end-to-end encrypted and we employ the leading data practices to keep your sensitive data secure. Please see [Security](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Security_suGvs) for more details.
+Your `.secrets` file is end-to-end encrypted and we employ the leading data practices to keep your sensitive data secure. Please see [Security](../managing-tools/security.md) for more details.
 

@@ -23,21 +23,21 @@ Choosing a trigger will open a configuration modal. Along with custom fields spe
 
 * Choose a **name** for your trigger.
 * Set a **run command** to invoke a process for your trigger.
-* \(Optional\) Select a JSON file that contains a test event object. See [Events](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Events_surL-) for more details.
+* \(Optional\) Select a JSON file that contains a test event object. See [Events](test-events.md) for more details.
 
 ![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-KKu-fOByjs/e45a4b3e1c99a95e4823d58ea3f21d4667ab25d2f3abab80100cd00a986a778a58761f29dcfe928034207914b3dec2b62a354202641f4d874a489f3e5b75ef68c44102604b6dbc3f297bf01fd4cfd429e962ff9d9e6ff39a35b2a7613134941adfaced02)
 
 After editing your trigger’s configuration, press “Save” to add your configuration to the `.triggers` file. You will also have to “Push” your workspace’s file system to update this configuration on your remote Lair.
 
 {% hint style="warning" %}
-Configured triggers only invoke processes in production Lair environments. However, you can test your triggers by manually running them through the configuration modal or using the generated development endpoints. See [Hosted environments](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Hosted-environments_suwGe) for more details on development vs. production environments.
+Configured triggers only invoke processes in production Lair environments. However, you can test your triggers by manually running them through the configuration modal or using the generated development endpoints. See [Hosted environments](../managing-tools/environments.md) for more details on development vs. production environments.
 {% endhint %}
 
 ### Manually invoking your trigger
 
-After opening the `.triggers` file, select an existing trigger to open the configuration modal. Press “Run” to execute your trigger’s run command and start the process execution. See [Processes](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Processes_sudu-) for more details on how to view and manage processes.
+After opening the `.triggers` file, select an existing trigger to open the configuration modal. Press “Run” to execute your trigger’s run command and start the process execution. See [Processes](../testing-and-visiblity/untitled.md) for more details on how to view and manage processes.
 
 ### Accessing your trigger’s events
 
-Your triggers can pass data payloads, called events in WayScript X, to your processes. See [Events](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Events_surL-) for more details on how these events can be accessed.
+Your triggers can pass data payloads, called events in WayScript X, to your processes. See [Events](test-events.md) for more details on how these events can be accessed.
 

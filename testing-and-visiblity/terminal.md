@@ -32,7 +32,7 @@ Exiting the Lair editor will terminate the terminal session and any processes th
 ### Terminal considerations
 
 * Pressing ▶ on a code file will enter the respective default run command, e.g. `python my-file.py`, into the Lair terminal.
-* Each Lair terminal can only access the files under the workspace root directory or the current Lair directory. See [File system](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/File-system_sua4L) for more details.
-* Terminal sessions use independent containerized environments, so changes made to the environment will not persist across sessions or within your Lair environment. For example, installed Python libraries \(through `pip`\) will be discarded on session close. However, you can use standard `requirements.txt` or `package.json` files to load packages on session start; see [Hosted environments](https://coda.io/d/WayScript-X-Docs_d2kDMDaZ6QP/Hosted-environments_suwGe) for more details.
+* Each Lair terminal can only access the files under the workspace root directory or the current Lair directory. See [File system](../building-tools/file-system.md) for more details.
+* Terminal sessions use independent containerized environments, so changes made to the environment will not persist across sessions or within your Lair environment. For example, installed Python libraries \(through `pip`\) will be discarded on session close. However, you can use standard `requirements.txt` or `package.json` files to load packages on session start; see [Hosted environments](../managing-tools/environments.md) for more details.
 * The Lair terminal currently does not render terminal programs or abstractions such as `vim` . Please use these at your own risk.
 
