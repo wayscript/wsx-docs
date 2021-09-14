@@ -11,9 +11,7 @@ Use the boilerplate code below to create a `task.py` file in your Lair’s root 
 #### Boilerplate `task.py`
 
 ```python
-# my-lair-a > api.py
-
-import time
+# my-lair-a > task.py
 
 i = 0
 while i < 5:
