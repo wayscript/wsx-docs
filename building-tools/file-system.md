@@ -35,9 +35,9 @@ Additionally, you may not access files within other Lair directories from a sele
 When using the WayScript X desktop app, your file system exists in two places:
 
 * **Remote** - on WayScript X’s managed infrastructure \(or self-hosted, coming soon\)
-* **Local** - on your local machine
+* **Local** - on your local device
 
-The WayScript X desktop creates and accesses files on local and then syncs your local file system to remote.
+The WayScript X desktop creates and accesses files on your local device and then syncs those files to your remote infrastructure.
 
 {% hint style="info" %}
 Both your remote and local file systems are connected to your Lair’s development environment. Please see [Hosted environments](../managing-tools/environments.md) for more details on your Lair’s environments.
@@ -45,7 +45,7 @@ Both your remote and local file systems are connected to your Lair’s developme
 
 **Setting up your file sync between remote and local**
 
-On first launch of the WayScript desktop app, follow the prompts to choose a local directory to sync WayScript files between remote and your local machine. Our tool will then create a new directory with the name of your workspace within the specified directory and download files present on remote.
+On first launch of the WayScript desktop app, follow the prompts to choose a local directory to sync WayScript files between remote and your local device. Our tool will then create a new directory with the name of your workspace within the specified directory and download files present on remote.
 
 ![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-ctT1lSpsA8/897d5cb37c8557ad9b149526e93a87b16af4e7f0f0be3aa51e4bd08c6d58007c44949fb53d3f804d60ab6953bb3c4909efbdda87870c6cf9e4af93f351cc2f42f482aa8e814a011346a8e71807b8ad97ce8824146ad13a8b7a1b3d966da21b512ef7ef54)
 
