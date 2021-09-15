@@ -37,7 +37,7 @@ When using the WayScript X desktop app, your file system exists in two places:
 * **Remote** - on WayScript X’s managed infrastructure \(or self-hosted, coming soon\)
 * **Local** - on your local device
 
-The WayScript X desktop creates and accesses files on your local device and then syncs those files to your remote infrastructure.
+The WayScript X desktop app creates and accesses files on your local device and then syncs those files to your remote infrastructure.
 
 {% hint style="info" %}
 Both your remote and local file systems are connected to your Lair’s development environment. Please see [Hosted environments](../managing-tools/environments.md) for more details on your Lair’s environments.
@@ -51,6 +51,14 @@ On first launch of the WayScript desktop app, follow the prompts to choose a loc
 
 {% hint style="success" %}
 Now that your WayScript files are present on your local machine, you can initialize `git` or other VCS on the workspace directory or for individual Lair directories to track changes or push to other remote locations. You can also clone repos directly into your workspace or Lair directories.
+{% endhint %}
+
+#### **Opening & saving files on local**
+
+The WayScript X file system accesses your local files through the in-app file browser. You can open multiple files in a tab view and edit file content using the app's in-built text editor. 
+
+{% hint style="warning" %}
+File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a 🔴 next to your file name if it is not been saved.
 {% endhint %}
 
 #### **Fetching file system status from remote**
