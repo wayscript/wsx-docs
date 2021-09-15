@@ -58,7 +58,7 @@ Now that your WayScript files are present on your local machine, you can initial
 The WayScript X file system accesses your local files through the in-app file browser. You can open multiple files in a tab view and edit file content using the app's in-built text editor. 
 
 {% hint style="warning" %}
-File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a 🔴 next to your file name if it is not been saved.
+File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a 🔴 next to your file name if it has not been saved.
 {% endhint %}
 
 #### **Fetching file system status from remote**
