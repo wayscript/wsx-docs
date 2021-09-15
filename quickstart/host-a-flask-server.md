@@ -46,7 +46,7 @@ $ flask run --port 8080 --host 0.0.0.0
 
 Press “Run” to push your files to remote \(see [File system](../building-tools/file-system.md) for more details\), execute the run command and start your web server process \(see [Processes](../testing-and-visiblity/processes.md) for more details\). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
 
-![](../.gitbook/assets/screen-shot-2021-09-14-at-2.00.30-pm.png)
+![](../.gitbook/assets/flask-app-settings-preview.png)
 
 {% hint style="success" %}
 After setting your FLASK\_ENV to development, modifying your app’s files will automatically restart your server process.
