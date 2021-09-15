@@ -39,7 +39,7 @@ flask==2.0.1
 Open your Lair’s `.triggers` file and add a new `deploy` trigger. Create a name for your trigger and input the following run command and port number 8080 \(or modified command and port number based on your app requirements\). See [Triggers](../building-tools/triggers.md) for more details.
 
 ```text
-$ FLASK_APP=main.py FLASK_ENV=development flask run --port 8080
+$ FLASK_APP=main.py FLASK_ENV=development flask run --port 8080 --host 0.0.0.0
 ```
 
 ### Test app in development environment
