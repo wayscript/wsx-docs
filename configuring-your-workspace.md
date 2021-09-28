@@ -16,8 +16,7 @@ Workspace names must be unique. Please modify the name of your workspace if you 
 
 #### **Leaving a workspace**
 
-Navigate to your workspace settings if you would like to leave your workspace. You must be part of a workspace to use WayScript X, so after leaving, you will be redirected to create or join a workspace.  
-\[Leave workspace view in settings\]
+Navigate to your workspace settings if you would like to leave your workspace. You must be part of a workspace to use WayScript X, so after leaving, you will be redirected to create or join a workspace.
 
 #### **Joining a workspace**
 

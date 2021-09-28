@@ -6,7 +6,7 @@ Yes, your data is secure. WayScript X establishes strict security boundaries on 
 
 ### **What do you do to keep WayScript X secure**?
 
-Security affects everything we do at WayScript. We are SOC 2 Type 2 compliant and we:
+Security affects everything we do at WayScript; we:
 
 * Force HTTPS on all connections, so data in-transit is encrypted with TLS 1.2.
 * Encrypt all customer data in-transit and at-rest with AES-256.
