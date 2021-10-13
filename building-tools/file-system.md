@@ -4,7 +4,7 @@ Each workspace comes with an attached file system which stores Lair directories 
 
 ### Example file system for your workspace
 
-```text
+```
 my-workspace/
 ├── my-lair-a/
 |   ├── .triggers
@@ -20,21 +20,24 @@ my-workspace/
 └── my-file.txt
 ```
 
-Files can be referenced by their relative or absolute path \(starting from the workspace directory\), and certain directories and files are protected, including:
+Files can be referenced by their relative or absolute path (starting from the workspace directory), and certain directories and files are protected, including:
 
 * Workspace directory
 * Lair directory
 * `.triggers` file
 * `.wayscript` directories and nested files
 
-Additionally, you may not access files within other Lair directories from a selected Lair. Any files that need to be accessed by multiple Lairs should be located within your workspace directory.  
+Additionally, you may not access files within other Lair directories from a selected Lair. Any files that need to be accessed by multiple Lairs should be located within your workspace directory.
 
+{% hint style="warning" %}
+File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a :red_circle: next to your file name if it has not been saved.
+{% endhint %}
 
 ### Using file sync through the WayScript desktop app
 
 When using the WayScript X desktop app, your file system exists in two places:
 
-* **Remote** - on WayScript X’s managed infrastructure \(or self-hosted, coming soon\)
+* **Remote** - on WayScript X’s managed infrastructure (or self-hosted, coming soon)
 * **Local** - on your local device
 
 The WayScript X desktop app creates and accesses files on your local device and then syncs those files to your remote infrastructure.
@@ -57,10 +60,6 @@ Now that your WayScript files are present on your local machine, you can initial
 
 The WayScript X file system accesses your local files through the in-app file browser. You can open multiple files in a tab view and edit file content using the app's in-built text editor. 
 
-{% hint style="warning" %}
-File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a 🔴 next to your file name if it has not been saved.
-{% endhint %}
-
 #### **Fetching file system status from remote**
 
 Pressing “Fetch” will evaluate whether there are changes that have not be downloaded from remote to your local machine. The app will also automatically “Fetch” before protected actions such as starting a new process or updating your integrations.
@@ -79,4 +78,3 @@ Pressing “Push” will attempt to upload your local machine’s workspace to r
 {% hint style="danger" %}
 Please do not modify `.wayscript` directories and nested files stored under your workspace root directory and Lair directories. These files are used for configuration or identification purposes and modification can lead to an unresponsive app state.
 {% endhint %}
-

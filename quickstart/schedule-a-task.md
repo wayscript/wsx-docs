@@ -23,16 +23,17 @@ while i < 5:
 
 Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name for your trigger, input the following run command, and set an interval or custom cron syntax for your task. See [Triggers](../building-tools/triggers.md) for more details.
 
-```
+```text
 $ python task.py
 ```
 
 ### Test your task execution in development environment
 
-Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
+Press “Run” to push your files to remote \(see [File system](../building-tools/file-system.md) for more details\), execute the run command, and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
 
 ![](../.gitbook/assets/screen-shot-2021-09-14-at-1.58.17-pm.png)
 
 ### Deploy to production environment
 
 Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../managing-tools/environments.md) for more details.
+
