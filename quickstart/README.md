@@ -5,7 +5,7 @@
 Access WayScript X at [app.wayscript.com](https://app.wayscript.com) or download the WayScript X desktop app available for MacOS _(Windows release coming soon)_ at [https://wayscript.com/wayscriptx](https://wayscript.com/wayscriptx). Create a new account.
 
 {% hint style="info" %}
-WayScript X is currently in closed beta release. To request early access, please request an invite at [wayscript.com/wsx](https://wayscript.com/wsx).
+WayScript X is currently in closed beta release. For early access, please request an invite at [wayscript.com/wsx](https://wayscript.com/wsx).
 {% endhint %}
 
 ### **2) Create a workspace**
