@@ -4,7 +4,7 @@ Events are data payloads that are passed to your processes when your Lair’s tr
 
 ### Access**ing** events within your Lair
 
-Events can be accessed using WayScript X’s `context` package. Simply import the package and call `get_event()` to output your event data \(see [SDK](sdk.md) for more details\). The event will be returned as a json dictionary object.
+Events can be accessed using WayScript X’s `context` package. Simply import the package and call `get_event()` to output your event data (see [SDK](sdk.md) for more details). The event will be returned as a json dictionary object.
 
 **Import** **context** **package and get event**
 
@@ -12,7 +12,7 @@ Events can be accessed using WayScript X’s `context` package. Simply import th
 # my-file-a.py
 
 import wayscript.context as context
-test_event = context.get_event()
+event_data = context.get_event()
 ```
 
 ### Using test events
@@ -23,7 +23,7 @@ Your event payload can be replaced by sample event data during manual invocation
 
 You can pass any valid `json` file to your trigger to use as a test event. Here is a sample test event `json` file to use with a `http` trigger.
 
-```text
+```
 # http_test.json
 
 {
@@ -75,5 +75,4 @@ Select your `json` file in the trigger configuration to use the test event. You 
 
 #### **Passing test event data to your processes**
 
-Test events are only passed to your process on manual invocations of your Lair’s triggers. Please see [Triggers](triggers.md) for more details.  
-
+Test events are only passed to your process on manual invocations of your Lair’s triggers. Please see [Triggers](triggers.md) for more details. &#x20;
