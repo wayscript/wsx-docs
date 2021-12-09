@@ -10,8 +10,7 @@ Your Lair can be configured with triggers that can execute processes through int
 **External triggers**
 
 * `http` - invoke process when a request is made to a HTTP endpoint
-* _**\(coming soon\)**_ `slack`
-* _**\(coming soon\)**_ `s3`
+* _**(coming soon)**_ `email`
 
 ### Adding a trigger to your Lair
 
@@ -23,7 +22,7 @@ Choosing a trigger will open a configuration modal. Along with custom fields spe
 
 * Choose a **name** for your trigger.
 * Set a **run command** to invoke a process for your trigger.
-* \(Optional\) Select a JSON file that contains a test event object. See [Events](events.md) for more details.
+* (Optional) Select a JSON file that contains a test event object. See [Events](events.md) for more details.
 
 ![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-KKu-fOByjs/e45a4b3e1c99a95e4823d58ea3f21d4667ab25d2f3abab80100cd00a986a778a58761f29dcfe928034207914b3dec2b62a354202641f4d874a489f3e5b75ef68c44102604b6dbc3f297bf01fd4cfd429e962ff9d9e6ff39a35b2a7613134941adfaced02)
 
@@ -40,4 +39,3 @@ After opening the `.triggers` file, select an existing trigger to open the confi
 ### Accessing your trigger’s events
 
 Your triggers can pass data payloads, called events in WayScript X, to your processes. See [Events](events.md) for more details on how these events can be accessed.
-
