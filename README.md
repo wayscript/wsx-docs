@@ -13,3 +13,9 @@ WayScript is currently in alpha release, so you may encounter small issues as we
 #### Overview of WayScript's core features
 
 {% embed url="https://www.youtube.com/watch?t=177s&v=clxsmgd4g5Y" %}
+
+#### Looking for WayScript's visual builder?
+
+You can still continue developing internal tools using our visual "tree" editor on the previous version of WayScript (now named WayScript Viz) [here](https://wayscriptviz.com).
+
+While we plan to focus development on the new version of WayScript, we are committed to supporting our vibrant community of teams and developers on WayScript Viz with bug fixes and stability & security improvements for the foreseeable future. We do, however, recommend trying out the this version of WayScript as it is a more powerful platform for many common internal tool use cases.
