@@ -16,7 +16,7 @@ WayScript currently supports the execution of tools built with the following pro
 * Python 3.9+
   * Packages compatible with pip 20+ (see [Hosted environments](../managing-tools/environments.md)) on how to install packages)
   * Support for Flask 1.1+ web applications
-* **(Coming soon)** Node.js 14+
+* **(Coming in Q4'21)** Node.js 14+
   * Packages compatible with npm
   * Support for Node’s http module
 
