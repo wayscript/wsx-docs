@@ -9,3 +9,7 @@ With WayScript, you can unblock data access by quickly turning database queries 
 {% hint style="info" %}
 WayScript is currently in alpha release, so you may encounter small issues as we continue our development of the platform. Please subscribe to our [blog](https://blog.wayscript.com) and join our Discord [server](https://discord.gg/SEAPQnCTpp) for continuing updates. We greatly appreciate your feedback and support!
 {% endhint %}
+
+#### Overview of WayScript's core features
+
+{% embed url="https://www.youtube.com/watch?t=177s&v=clxsmgd4g5Y" %}
