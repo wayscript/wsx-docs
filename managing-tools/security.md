@@ -4,7 +4,7 @@
 
 Yes, your data is secure. WayScript establishes strict security boundaries on computing resources to maintain customer data privacy. When executing a process, the WayScript X backend returns the data generated to the web client and then terminates the process and spins down the container used for processing. None of the data returned by your processes is stored on our servers, unless outputted to a file or logged to StdOutput. Database records and file data is stored on shared resources with strict controls in place to disable access by other Lairs, workspaces, and users.
 
-### **What do you do to keep WayScript X secure**?
+### **What do you do to keep WayScript secure**?
 
 Security affects everything we do at WayScript; we are SOC 2 Type II certified and:
 
@@ -17,12 +17,12 @@ Security affects everything we do at WayScript; we are SOC 2 Type II certified a
 * Use secure coding and code deployment practices.
 * Ensure all employees have passed background checks.
 
-### **What sort of data does WayScript X store?**
+### **What sort of data does WayScript store?**
 
 WayScript stores the following data to operate its service, which may include personal data:
 
 * Account information (name, email, etc.)
-* Files created or uploaded to the WayScript X platform
+* Files created or uploaded to the WayScript platform
 
 WayScript X also stores metadata concerning your usage, such as:
 
