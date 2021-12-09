@@ -23,7 +23,25 @@ Files can be referenced by their relative or absolute path (starting from the La
 * `.triggers` file
 * `.wayscript` directories and nested files
 
-Additionally, you may not access files within other Lair directories from a selected Lair. Any files that need to be accessed by multiple Lairs should be stored externally or accessed through a Lair service.
+Additionally, you may not access files within other Lair directories from a selected Lair. Any files that need to be accessed by multiple Lairs should be served through an independent service.
+
+### Completing file operations
+
+**Create a new file or directory**
+
+Create a file or directory within your Lair's file system by pressing :heavy\_plus\_sign: at the top.&#x20;
+
+![](../.gitbook/assets/image.png)
+
+You can also upload a file or directory from your local device's file system by dragging it into your Lair's file system.&#x20;
+
+{% hint style="danger" %}
+Uploading large files or folders may take a few moments to complete. Do not navigate away from your current Lair until your upload is complete.&#x20;
+{% endhint %}
+
+**Editing files**
+
+Select a file to open and modify its contents within WayScript's in-built editor.&#x20;
 
 {% hint style="warning" %}
 File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a :red\_circle: next to your file name if it has not been saved.
