@@ -1,6 +1,6 @@
 # Host a Flask server
 
-WayScript X allows you to configure your Lair to host a Flask app in minutes.
+WayScript allows you to configure your Lair to host a Flask app in minutes.
 
 ### Create `app.py` or load Flask files
 

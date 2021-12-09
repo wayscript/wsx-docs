@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is WayScript X?](README.md)
+* [What is WayScript?](README.md)
 * [Quickstart](quickstart/README.md)
   * [Build an API](quickstart/build-an-api.md)
   * [Schedule a task](quickstart/schedule-a-task.md)
@@ -27,4 +27,3 @@
 * [Hosted environments](managing-tools/environments.md)
 * [Self-hosting options](managing-tools/self-hosting-options.md)
 * [Security](managing-tools/security.md)
-

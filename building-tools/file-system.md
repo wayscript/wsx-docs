@@ -1,36 +1,32 @@
 # File system
 
-Each workspace comes with an attached file system which stores Lair directories and any other files or directories. The file system is structured under a workspace root directory.
+Each Lair comes with an attached file system that is fully encapsulated, i.e., cannot be accessed by files or processes within other Lairs. Each Lair is represented as a directory within the workspace, but modifying its contents is most similar to rebuilding a Docker image.&#x20;
 
 ### Example file system for your workspace
 
 ```
 my-workspace/
 ├── my-lair-a/
-|   ├── .triggers
-|   ├── README.md
-|   └── my-file.py
-├── my-lair-b/
-|   ├── src/
-|   |   └── my-app.py
-|   ├── .triggers
-|   └── .secrets
-├── my-folder/
-|   └── my-image.png
-└── my-file.txt
+    ├── .triggers
+    ├── README.md
+    └── my-file.py
+└── my-lair-b/
+    ├── src/
+    |   └── my-app.py
+    ├── .triggers
+    └── .secrets
 ```
 
-Files can be referenced by their relative or absolute path (starting from the workspace directory), and certain directories and files are protected, including:
+Files can be referenced by their relative or absolute path (starting from the Lair directory), and certain directories and files are protected, including:
 
-* Workspace directory
 * Lair directory
 * `.triggers` file
 * `.wayscript` directories and nested files
 
-Additionally, you may not access files within other Lair directories from a selected Lair. Any files that need to be accessed by multiple Lairs should be located within your workspace directory.
+Additionally, you may not access files within other Lair directories from a selected Lair. Any files that need to be accessed by multiple Lairs should be stored externally or accessed through a Lair service.
 
 {% hint style="warning" %}
-File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a :red_circle: next to your file name if it has not been saved.
+File edits do not auto-save; you must use `cmd+s` to save edits to your local device. You will see a :red\_circle: next to your file name if it has not been saved.
 {% endhint %}
 
 ### Using file sync through the WayScript desktop app
@@ -58,7 +54,7 @@ Now that your WayScript files are present on your local machine, you can initial
 
 #### **Opening & saving files on local**
 
-The WayScript X file system accesses your local files through the in-app file browser. You can open multiple files in a tab view and edit file content using the app's in-built text editor. 
+The WayScript X file system accesses your local files through the in-app file browser. You can open multiple files in a tab view and edit file content using the app's in-built text editor.&#x20;
 
 #### **Fetching file system status from remote**
 

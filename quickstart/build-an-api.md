@@ -1,6 +1,6 @@
 # Build an API
 
-WayScript X allows you to configure your Lair to build an API endpoint in minutes.
+WayScript allows you to configure your Lair to build an API endpoint in minutes.
 
 ### Create `api.py`
 

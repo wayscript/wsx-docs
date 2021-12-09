@@ -1,12 +1,12 @@
 # Configuring your workspace
 
-Your **workspace** is the root directory that contains all your tools that live on WayScript X. Your workspace allows you to create and delete [Lairs](building-tools/lairs.md), the basic building block of WayScript X, and manage team members. The WayScript team is developing additional features such as workspace roles, please contact us at [nihar@wayscript.com](mailto:nihar@wayscript.com) if you would like early access.
+Your **workspace** is the root directory that contains all your tools that live on WayScript. Your workspace allows you to create and delete [Lairs](building-tools/lairs.md), the basic building block of WayScript, and manage team members.&#x20;
 
 ### Setting up your workspace
 
 #### **Creating a workspace**
 
-You can create a new workspace after registering your account with WayScript X. When using the WayScript X desktop app, you will then be directory to choose a workspace folder \(see [File system](building-tools/file-system.md) for more details\).
+You can create a new workspace after registering your account with WayScript X. When using the WayScript X desktop app, you will then be directory to choose a workspace folder (see [File system](building-tools/file-system.md) for more details).
 
 ![](.gitbook/assets/env-1.png)
 
@@ -34,3 +34,6 @@ Navigate to your workspace settings to invite a team member by email address to 
 
 ![](.gitbook/assets/screen-shot-2021-09-14-at-2.05.40-pm.png)
 
+{% hint style="info" %}
+The WayScript team is developing additional workspace features such as active directory sync and workspace roles. Please contact us at [nihar@wayscript.com](mailto:nihar@wayscript.com) if you would like to request early access.
+{% endhint %}
