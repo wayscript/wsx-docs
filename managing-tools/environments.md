@@ -1,6 +1,6 @@
 # Hosted environments
 
-Your Lair is configured with two hosted environments: development and production. While building your tools in WayScript, you are interacting with your Lair’s development environment. Once your tool is ready for use, it can be deployed to your Lair’s production environment.
+Your Lair is configured with two hosted environments: **development and production**. While building your tools in WayScript, you are interacting with your Lair’s development environment. Once your tool is ready for use, it can be deployed to your Lair’s production environment.
 
 Both development and production environments are use WayScript’s base container image (see [Lairs](../building-tools/lairs.md) for more details), so tools that have been tested on your development environment will have identical execution without any configuration. However, there are a few key operational distinction between development and production environments:
 
