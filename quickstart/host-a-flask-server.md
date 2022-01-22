@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
 ### Add packages to `requirements.txt`
 
-Create a `requirements.txt` file in your Lair’s root directory and specify the `flask` package. You can also specify any additional dependencies your app requires. See [Hosted environments ](../managing-tools/environments.md)for more details.
+Create a `requirements.txt` file in your Lair’s root directory and specify the `flask` package. You can also specify any additional dependencies your app requires. See [Hosted environments ](../building-tools/environments.md)for more details.
 
 ```
 # my-lair > requirements.txt
@@ -54,4 +54,4 @@ Set your `FLASK_ENV=development` to enable hot reload of your server process whe
 
 ### Deploy to production environment
 
-Once you have finished testing, press “Deploy” to create a production environment for your Flask app. Select `<Lair_name>.prod` in the Lair selector menu and view the `on deploy` trigger to access your app’s production endpoint. See [Hosted environments](../managing-tools/environments.md) for more details.
+Once you have finished testing, press “Deploy” to create a production environment for your Flask app. Select `<Lair_name>.prod` in the Lair selector menu and view the `on deploy` trigger to access your app’s production endpoint. See [Hosted environments](../building-tools/environments.md) for more details.

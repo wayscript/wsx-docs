@@ -15,7 +15,7 @@ API_KEY=hfy92kadHgkk29fahjsu3j922v9sjwaucahf
 
 ### Creating environment variables
 
-First, create an `.env` or `.secrets` file in your Lair by selecting the \(+\) icon or manually initializing an empty file.
+First, create an `.env` or `.secrets` file in your Lair by selecting the ＋ icon in the search bar or manually initializing an empty file.
 
 ![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-Iqkx-tphjD/3d584a55f32dbc8c4e8cf462e3eb9867bbcaf47440586f29d25f94abb1d90be28f4433566d59fc5bfeef80fb761d4e93785f99ec6a64bd561d70e8c2785ae52f342dcf4729de3a496500f8f7ee8d21e20f6ee3321ca9844abc41275391641b8d1fff3ebe)
 
@@ -50,4 +50,3 @@ BAZ = os.environ['BAZ'] # KeyError: key does not exist.
 #### Security considerations
 
 Your `.secrets` file is end-to-end encrypted and we employ the leading data practices to keep your sensitive data secure. Please see [Security](../managing-tools/security.md) for more details.
-

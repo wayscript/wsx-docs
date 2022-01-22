@@ -6,6 +6,7 @@
   * [Schedule a task](quickstart/schedule-a-task.md)
   * [Host a Flask server](quickstart/host-a-flask-server.md)
 * [Configuring your workspace](configuring-your-workspace.md)
+* [Self-hosting options](self-hosting-options.md)
 
 ## Building tools
 
@@ -15,6 +16,7 @@
 * [Events](building-tools/events.md)
 * [SDK](building-tools/sdk.md)
 * [Environment variables](building-tools/environment-variables.md)
+* [Deployments](building-tools/environments.md)
 
 ## Testing and Visiblity
 
@@ -24,6 +26,5 @@
 
 ## Managing Tools
 
-* [Hosted environments](managing-tools/environments.md)
-* [Self-hosting options](managing-tools/self-hosting-options.md)
+* [Publish](managing-tools/publish.md)
 * [Security](managing-tools/security.md)

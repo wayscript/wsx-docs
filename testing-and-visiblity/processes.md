@@ -27,7 +27,8 @@ Your Lair’s process list does not show processes executed from the Lair termin
 #### Process statuses
 
 * **Running**: process is being executed
-* **Closed**: process has exited without error (exit code 0), commonly from end-of-file or manual interruption
+* **Done**: process has exited without error (exit code 0), commonly from end-of-file
+* **Killed**: process exited due to manual interruption
 * **Failed**: process has exited due to error (exit code > 0)
 
 ### Terminating running processes

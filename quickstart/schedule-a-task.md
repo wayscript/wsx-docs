@@ -35,4 +35,4 @@ Press “Run” to execute the run command and start your task’s process execu
 
 ### Deploy to production environment
 
-Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../managing-tools/environments.md) for more details.
+Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../building-tools/environments.md) for more details.

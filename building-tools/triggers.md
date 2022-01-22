@@ -29,7 +29,7 @@ Choosing a trigger will open a configuration modal. Along with custom fields spe
 After editing your trigger’s configuration, press “Save” to add your configuration to the `.triggers` file. You will also have to “Push” your workspace’s file system to update this configuration on your remote Lair.
 
 {% hint style="warning" %}
-Configured triggers only invoke processes in production Lair environments. However, you can test your triggers by manually running them through the configuration modal or using the generated development endpoints. See [Hosted environments](../managing-tools/environments.md) for more details on development vs. production environments.
+Configured triggers only invoke processes in production Lair environments. However, you can test your triggers by manually running them through the configuration modal or using the generated development endpoints. See [Hosted environments](environments.md) for more details on development vs. production environments.
 {% endhint %}
 
 ### Manually invoking your trigger

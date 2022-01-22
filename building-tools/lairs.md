@@ -14,7 +14,7 @@ Lairs are built on Linux-based Docker images with attached storage and available
 WayScript currently supports the execution of tools built with the following protocols. The WayScript team is working to adding support for additional protocols and flexible image and container size options.
 
 * Python 3.9+
-  * Packages compatible with pip 20+ (see [Hosted environments](../managing-tools/environments.md)) on how to install packages)
+  * Packages compatible with pip 20+ (see [Hosted environments](environments.md)) on how to install packages)
   * Support for Flask 1.1+ web applications
 * **(Coming in Q4'21)** Node.js 14+
   * Packages compatible with npm
@@ -28,7 +28,7 @@ Navigate to your “Lairs” view and select “+ New Lair” to create a new La
 
 #### **Duplicating a Lair**
 
-Lairs can be duplicated from your “Lairs” view through the right-click menu. The files will be duplicated from a Lair’s development environment, not its production environment. See [File system](file-system.md) and [Hosted environments](../managing-tools/environments.md) for more details.
+Lairs can be duplicated from your “Lairs” view through the right-click menu. The files will be duplicated from a Lair’s development environment, not its production environment. See [File system](file-system.md) and [Hosted environments](environments.md) for more details.
 
 #### **Deleting a Lair**
 

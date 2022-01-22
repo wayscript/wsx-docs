@@ -29,7 +29,7 @@ Additionally, you may not access files within other Lair directories from a sele
 
 **Create a new file or directory**
 
-Create a file or directory within your Lair's file system by pressing :heavy\_plus\_sign: at the top.&#x20;
+Create a file or directory within your Lair's file system by pressing ＋ next to the search bar.&#x20;
 
 ![](../.gitbook/assets/image.png)
 
@@ -57,7 +57,7 @@ When using the WayScript X desktop app, your file system exists in two places:
 The WayScript X desktop app creates and accesses files on your local device and then syncs those files to your remote infrastructure.
 
 {% hint style="info" %}
-Both your remote and local file systems are connected to your Lair’s development environment. Please see [Hosted environments](../managing-tools/environments.md) for more details on your Lair’s environments.
+Both your remote and local file systems are connected to your Lair’s development environment. Please see [Hosted environments](environments.md) for more details on your Lair’s environments.
 {% endhint %}
 
 **Setting up your file sync between remote and local**

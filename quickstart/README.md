@@ -1,6 +1,6 @@
 # Quickstart
 
-### **1) Create an account on WayScript X**
+### **1) Create an account on WayScript**
 
 Access WayScript at [app.wayscript.com](https://app.wayscript.com) or download the WayScript desktop app available for MacOS _(Windows release coming soon)_ at [https://wayscript.com/wayscriptx](https://wayscript.com/wayscriptx). Create a new account.
 

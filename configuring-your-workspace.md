@@ -6,7 +6,7 @@ Your **workspace** is the root directory that contains all your tools that live 
 
 #### **Creating a workspace**
 
-You can create a new workspace after registering your account with WayScript X. When using the WayScript X desktop app, you will then be directory to choose a workspace folder (see [File system](building-tools/file-system.md) for more details).
+You can create a new workspace after registering your account with WayScript. When using the WayScript desktop app, you will then be directory to choose a workspace folder (see [File system](building-tools/file-system.md) for more details).
 
 ![](.gitbook/assets/env-1.png)
 
@@ -16,7 +16,7 @@ Workspace names must be unique. Please modify the name of your workspace if you 
 
 #### **Leaving a workspace**
 
-Navigate to your workspace settings if you would like to leave your workspace. You must be part of a workspace to use WayScript X, so after leaving, you will be redirected to create or join a workspace.
+Navigate to your workspace settings if you would like to leave your workspace. You must be part of a workspace to use WayScript, so after leaving, you will be redirected to create or join a workspace.
 
 #### **Joining a workspace**
 
