@@ -1,6 +1,6 @@
-# Host a Flask server
+# Host a service
 
-WayScript allows you to configure your Lair to host a Flask app in minutes.
+WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to setup a simple Flask app in your Lair.&#x20;
 
 ### Create `app.py` or load Flask files
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
 ### Add packages to `requirements.txt`
 
-Create a `requirements.txt` file in your Lair’s root directory and specify the `flask` package. You can also specify any additional dependencies your app requires. See [Hosted environments ](../building-tools/environments.md)for more details.
+Create a `requirements.txt` file in your Lair’s root directory and specify the `flask` package. You can also specify any additional dependencies your app requires. See [Hosted environments ](../building-tools/deployments.md)for more details.
 
 ```
 # my-lair > requirements.txt
@@ -49,9 +49,13 @@ Press “Run” to execute the run command and start your web server process (se
 ![](../.gitbook/assets/flask-app-settings-preview.png)
 
 {% hint style="success" %}
-Set your `FLASK_ENV=development` to enable hot reload of your server process when modifying your app’s files.
+Set `FLASK_ENV=development` to enable hot reload of your server process when modifying your app’s files.
 {% endhint %}
 
 ### Deploy to production environment
 
-Once you have finished testing, press “Deploy” to create a production environment for your Flask app. Select `<Lair_name>.prod` in the Lair selector menu and view the `on deploy` trigger to access your app’s production endpoint. See [Hosted environments](../building-tools/environments.md) for more details.
+Once you have finished testing, press “Deploy” to create a production environment for your Flask app. Select `<Lair_name>.prod` in the Lair selector menu and view the `on deploy` trigger to access your app’s production endpoint. See [Hosted environments](../building-tools/deployments.md) for more details.
+
+{% hint style="warning" %}
+By default, your Lair's endpoints are protected against unauthenticated requests. See [endpoints.md](../building-tools/endpoints.md "mention") on how to public expose your endpoints or authenticate using your application key.
+{% endhint %}

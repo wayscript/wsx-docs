@@ -4,68 +4,51 @@ Events are data payloads that are passed to your processes when your Lair’s tr
 
 ### Access**ing** events within your Lair
 
-Events can be accessed using WayScript X’s `context` package. Simply import the package and call `get_event()` to output your event data (see [SDK](sdk.md) for more details). The event will be returned as a json dictionary object.
+Events can be accessed using WayScript’s `context` package. Simply import the package and call `get_event()` to output your event data (see [SDK](sdk/) for more details). The event will be returned as a json dictionary object.
 
 **Import** **context** **package and get event**
 
+{% tabs %}
+{% tab title="Python" %}
 ```python
-# my-file-a.py
-
 import wayscript.context as context
-event_data = context.get_event()
+event_payload = context.get_event()
 ```
+{% endtab %}
 
-### Using test events
+{% tab title="JavaScript" %}
+```javascript
+const wayscript = require("wayscript");
+var event_payload = context.getEvent()
+```
+{% endtab %}
+{% endtabs %}
+
+#### Format of event payload
+
+```
+{
+   "created_date":"2022-02-24T18:07:37.513996",
+   "data":{
+      "cookies":{...},
+      "data":"",
+      "files":{...},  
+      "form":{...},   
+      "headers":{...},
+      "method":"GET",
+      "url":"http://emerald-beaver-place-dev.wayscript.cloud/?name=John"
+   },
+   "id":"",
+   "meta":"None",
+   "trigger_type":"http"
+}
+```
 
 Your event payload can be replaced by sample event data during manual invocation of your triggers so you can test processes without using dummy requests or switching between services.
 
 #### **Creating test event** **json** **file**
 
-You can pass any valid `json` file to your trigger to use as a test event. Here is a sample test event `json` file to use with a `http` trigger.
-
-```
-# http_test.json
-
-{
-  "raw_data": "",
-  "request": {
-    "query_params": {},
-    "json_data": {},
-    "metadata": {
-      "accept_encodings": "",
-      "accept_languages": "",
-      "accept_mimetypes": "",
-      "base_url": "",
-      "content_length": 0,
-      "content_type": "",
-      "content_md5": "",
-      "data": "",
-      "date": "2021-09-09T16:21:39.084628+00:00",
-      "form": "{}",
-      "full_path": "",
-      "host": "",
-      "host_url": "",
-      "if_modified_since": "2021-09-09T16:21:39.084651+00:00",
-      "if_unmodified_since": "2021-09-09T16:21:39.084657+00:00",
-      "is_json": false,
-      "is_secure": false,
-      "json": "{}",
-      "mimetype": "",
-      "mimetype_params": "{}",
-      "method": "",
-      "path": "",
-      "query_string": "",
-      "remote_addr": "",
-      "remote_user": "",
-      "referrer": "",
-      "scheme": "",
-      "url": "",
-      "url_root": "",
-      "user_agent": ""
-    }
-  }
-}
-```
+You can pass any valid `json` file to your trigger to use as a test event. You can use the sample event payload as a template for your test event.&#x20;
 
 #### **Attaching test events to triggers**
 

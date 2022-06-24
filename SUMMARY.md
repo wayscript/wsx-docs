@@ -4,9 +4,7 @@
 * [Quickstart](quickstart/README.md)
   * [Build an API](quickstart/build-an-api.md)
   * [Schedule a task](quickstart/schedule-a-task.md)
-  * [Host a Flask server](quickstart/host-a-flask-server.md)
-* [Configuring your workspace](configuring-your-workspace.md)
-* [Self-hosting options](self-hosting-options.md)
+  * [Host a service](quickstart/host-a-flask-server.md)
 
 ## Building tools
 
@@ -14,9 +12,12 @@
 * [File system](building-tools/file-system.md)
 * [Triggers](building-tools/triggers.md)
 * [Events](building-tools/events.md)
-* [SDK](building-tools/sdk.md)
+* [Endpoints](building-tools/endpoints.md)
+* [Deployments](building-tools/deployments.md)
+* [WayScript SDK](building-tools/sdk/README.md)
+  * [Example: identify requester to protected endpoints](building-tools/sdk/example-identify-requester-to-protected-endpoints.md)
+  * [Example: send response to http trigger](building-tools/sdk/example-send-response-to-http-trigger.md)
 * [Environment variables](building-tools/environment-variables.md)
-* [Deployments](building-tools/environments.md)
 
 ## Testing and Visiblity
 
@@ -26,5 +27,22 @@
 
 ## Managing Tools
 
-* [Publish](managing-tools/publish.md)
-* [Security](managing-tools/security.md)
+* [Alerts](managing-tools/alerts.md)
+* [Publishing](managing-tools/publishing.md)
+* [Integrations](managing-tools/integrations.md)
+
+## Collaborating
+
+* [Workspace](collaborating/configuring-your-workspace.md)
+* [Members](collaborating/members.md)
+* [Groups](collaborating/groups.md)
+
+## Hosting
+
+* [Self-hosting](hosting/self-hosting.md)
+
+## Resources
+
+* [Code snippets](resources/code-snippets/README.md)
+  * [Headless browser (Selenium)](resources/code-snippets/headless-browser-selenium.md)
+* [Security](resources/security.md)

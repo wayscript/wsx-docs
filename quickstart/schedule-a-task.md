@@ -31,8 +31,12 @@ $ python task.py
 
 Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
 
-![](../.gitbook/assets/screen-shot-2021-09-14-at-1.58.17-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-14 at 1.58.17 PM.png>)
 
 ### Deploy to production environment
 
-Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../building-tools/environments.md) for more details.
+Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../building-tools/deployments.md) for more details.
+
+{% hint style="info" %}
+In order for your scheduled task to run, you must [Deploy](../building-tools/deployments.md) the lair!
+{% endhint %}

@@ -49,4 +49,4 @@ BAZ = os.environ['BAZ'] # KeyError: key does not exist.
 
 #### Security considerations
 
-Your `.secrets` file is end-to-end encrypted and we employ the leading data practices to keep your sensitive data secure. Please see [Security](../managing-tools/security.md) for more details.
+Your `.secrets` file is end-to-end encrypted and we employ the leading data practices to keep your sensitive data secure. Please see [Security](../resources/security.md) for more details.
