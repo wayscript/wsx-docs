@@ -18,7 +18,7 @@ event_payload = context.get_event()
 
 {% tab title="JavaScript" %}
 ```javascript
-const wayscript = require("wayscript");
+const {context} = require("wayscript");
 var event_payload = context.getEvent()
 ```
 {% endtab %}
