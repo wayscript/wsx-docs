@@ -70,9 +70,9 @@ class App extends React.Component {
 {
   "avatar": "https://lh3.googleusercontent.com/a-/AOh14Gj_lywgCvZF1oDt0Z0iW3n01MtyyYA0YTRYxlxq=s96-c",
   "created_date": "2022-01-27T19:31:11.719832",
-  "email": "nihar@wayscript.com",
-  "first_name": "Nihar",
-  "last_name": "Parikh",
+  "email": "support@wayscript.com",
+  "first_name": "Barry",
+  "last_name": "Allen",
   "id": "186f48b6-57c5-4dd4-9422-f7d503ad5b9c",
   "groups": [
     {
