@@ -6,7 +6,7 @@ Your Lair can reference environment variables on process execution. For addition
 
 ```yaml
 # my-lair-a > .env
-USER=nihar
+USER=barry
 VERSION=1.0.3
 
 # my-lair-a > .secrets (example only, data is end-to-end encrypted)
