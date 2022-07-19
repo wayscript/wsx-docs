@@ -2,7 +2,7 @@
 
 WayScript is available for self-hosting on your organization's AWS infrastructure through easy provisioning using Terraform. Self-hosting WayScript ensures that all access to internal data is managed within your own cloud environment. You also have the flexibility to control the overall deployed footprint of WayScript to fit your organization’s needs and ability to configure SSO for your team.&#x20;
 
-> Please contact us at [nihar@wayscript.com](mailto:nihar@wayscript.com) if you are interested in early access to this hosting option. The WayScript team will then provide access to the full self-hosted documentation hosted on the `wayscript-self-hosted` private [repo](https://github.com/wayscript/wayscript-self-hosted).&#x20;
+> Please contact us at [support@wayscript.com](mailto:support@wayscript.com) if you are interested in early access to this hosting option. The WayScript team will then provide access to the full self-hosted documentation hosted on the `wayscript-self-hosted` private [repo](https://github.com/wayscript/wayscript-self-hosted).&#x20;
 
 ### WayScript Release Process
 
