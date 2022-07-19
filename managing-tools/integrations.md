@@ -22,7 +22,7 @@ Adding the integration with enable two monitoring capabilities in your workspace
 * Ability to configure APM agents and log forwarding
 
 {% hint style="info" %}
-Currently, the integration offers the ability to automatically initialize New Relic's [infrastructure agent](https://docs.newrelic.com/docs/infrastructure/infrastructure-monitoring/get-started/get-started-infrastructure-monitoring) in your Lair processes and inject relevant environment variables for you to setup New Relic's APM agent and log forwarding for your service or script. The WayScript team plans to add additional functionality; please contact us  at nihar@wayscript.com with any requests.&#x20;
+Currently, the integration offers the ability to automatically initialize New Relic's [infrastructure agent](https://docs.newrelic.com/docs/infrastructure/infrastructure-monitoring/get-started/get-started-infrastructure-monitoring) in your Lair processes and inject relevant environment variables for you to setup New Relic's APM agent and log forwarding for your service or script. The WayScript team plans to add additional functionality; please contact us  at [support@wayscript.com](mailto:support@wayscript.com) with any requests.&#x20;
 {% endhint %}
 
 #### Enabling the New Relic integration (with default infrastructure monitoring)
