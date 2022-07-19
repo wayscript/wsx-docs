@@ -14,4 +14,4 @@ Your Lair editor will fetch a live stream of log entries for running processes. 
 
 #### **Closed or failed processes**
 
-You can also open your process logs for closed or failed processes. By default, your logs will be stored for **7 days**, but please reach out to us at nihar@wayscript.com if you are interested in additional log retention.
+You can also open your process logs for closed or failed processes. By default, your logs will be stored for **7 days**, but please reach out to us at [support@wayscript.com](mailto:support@wayscript.com) if you are interested in additional log retention.
