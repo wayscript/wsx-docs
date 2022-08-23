@@ -5,6 +5,7 @@
   * [Build an API](quickstart/build-an-api.md)
   * [Schedule a task](quickstart/schedule-a-task.md)
   * [Host a service](quickstart/host-a-flask-server.md)
+  * [Setup FastAPI Server](quickstart/setup-fastapi-server.md)
 
 ## Building tools
 
@@ -45,4 +46,5 @@
 
 * [Code snippets](resources/code-snippets/README.md)
   * [Headless browser (Selenium)](resources/code-snippets/headless-browser-selenium.md)
+  * [Host a Django Server](resources/code-snippets/host-a-django-server.md)
 * [Security](resources/security.md)
