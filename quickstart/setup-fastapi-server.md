@@ -45,7 +45,7 @@ Press “Run” to execute the run command and start your web server process (se
 
 ### Deploy to production environment
 
-Once you have finished testing, press “Deploy” to create a production environment for your Flask app. Select `<Lair_name>.prod` in the Lair selector menu and view the `on deploy` trigger to access your app’s production endpoint. See [Hosted environments](../building-tools/deployments.md) for more details.
+Once you have finished testing, press “Deploy” to create a production environment for your FastAPI app. Select `<Lair_name>.prod` in the Lair selector menu and view the `on deploy` trigger to access your app’s production endpoint. See [Hosted environments](../building-tools/deployments.md) for more details.
 
 {% hint style="warning" %}
 By default, your Lair's endpoints are protected against unauthenticated requests. See [endpoints.md](../building-tools/endpoints.md "mention") on how to public expose your endpoints or authenticate using your application key.
