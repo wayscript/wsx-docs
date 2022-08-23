@@ -34,6 +34,7 @@
 
 ## Collaborating
 
+* [Version Control](collaborating/version-control.md)
 * [Workspace](collaborating/configuring-your-workspace.md)
 * [Members](collaborating/members.md)
 * [Groups](collaborating/groups.md)

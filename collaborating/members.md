@@ -15,5 +15,5 @@ Select "Add member" to invite a team member by email address to your workspace. 
 ![](<../.gitbook/assets/Screen Shot 2021-09-14 at 2.05.40 PM.png>)
 
 {% hint style="info" %}
-The WayScript team is developing additional member features such as workspace roles and active directory sync. Please contact us at [nihar@wayscript.com](mailto:nihar@wayscript.com) if you would like to request early access.
+The WayScript team is developing additional member features such as workspace roles and active directory sync. Please contact us at [support@wayscript.com](mailto:nihar@wayscript.com) if you would like to request early access.
 {% endhint %}
