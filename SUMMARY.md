@@ -30,7 +30,8 @@
 
 * [Alerts](managing-tools/alerts.md)
 * [Publishing](managing-tools/publishing.md)
-* [Integrations](managing-tools/integrations.md)
+* [Integrations](managing-tools/integrations/README.md)
+  * [New Relic](managing-tools/integrations/new-relic.md)
 
 ## Collaborating
 
