@@ -37,7 +37,7 @@ To create a Lair in your workspace:
 Note: To ensure your data moves seamlessly from WayScript to New Relic, make sure to complete the integration by following these steps before you deploy a Lair, which is covered in the next section.
 {% endhint %}
 
-1. Log in to New Relic or [sign up](https://live-d9newrelic.pantheonsite.io/signup/) for a free account.
+1. Log in to New Relic or [sign up](https://newrelic.com/signup/?utm\_source=external\_partners\&utm\_medium=referral\&utm\_campaign=global-ever-green-io-partner\&utm\_content=wayscript) for a free account.
 2. Create a New Relic integration in WayScript. In WayScript, go to integrations by selecting the **Workspace** dropdown menu in the top left corner. Select **Settings**, and then **Integrations.** On the integrations page, select **+New Integration**, and then **New Relic**.
 3. Enter your New Relic `account_id` and `license_key`
    * You can find these values on the [WayScript data source page](https://onenr.io/0dQeVpxaDwe) in New Relic.
