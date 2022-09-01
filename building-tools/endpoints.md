@@ -45,6 +45,10 @@ print(response.content)
 {% endtab %}
 {% endtabs %}
 
+{% hint style="warning" %}
+If you receive a 403 when accessing your endpoint, and are providing an `Authorization` header with a valid bearer token, try ensuring your request is sending a valid `User-Agent` header as well.
+{% endhint %}
+
 ### Viewing your Lair's endpoints
 
 Navigate to the 🔗 Endpoint tab in your Lair toolbar to view a list of all generated endpoints for your Lair.
