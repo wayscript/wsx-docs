@@ -33,8 +33,8 @@ Now that you have created a Lair, follow one of our 5-minute tutorial to get sta
 [host-a-flask-server.md](host-a-flask-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="setup-fastapi-server.md" %}
-[setup-fastapi-server.md](setup-fastapi-server.md)
+{% content-ref url="set-up-fastapi-server.md" %}
+[set-up-fastapi-server.md](set-up-fastapi-server.md)
 {% endcontent-ref %}
 
 ### **3)** Deploy a Lair &#x20;

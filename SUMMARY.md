@@ -5,7 +5,7 @@
   * [Build an API](quickstart/build-an-api.md)
   * [Schedule a task](quickstart/schedule-a-task.md)
   * [Host a service](quickstart/host-a-flask-server.md)
-  * [Setup FastAPI Server](quickstart/setup-fastapi-server.md)
+  * [Set Up FastAPI Server](quickstart/set-up-fastapi-server.md)
 
 ## Building tools
 

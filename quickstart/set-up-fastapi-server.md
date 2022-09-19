@@ -1,12 +1,12 @@
-# Setup FastAPI Server
+# Set Up FastAPI Server
 
-WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to setup a simple FastAPI app in your Lair.&#x20;
+WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to set up a simple FastAPI app in your Lair.&#x20;
 
 ### Create `main.py` or load FastAPI files
 
 Use the boilerplate code below to create a `main.py` file in your Lair’s root directory. Or if you have an existing FastAPI project, copy or clone your project files into your Lair’s directory. See [File system](../building-tools/file-system.md) for more details on how to manipulate files in your workspace file system.
 
-### Setup main.py
+### Set Up main.py
 
 ```python
 # my-lair-a > main.py
