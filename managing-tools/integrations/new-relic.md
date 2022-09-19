@@ -1,6 +1,6 @@
 # New Relic
 
-WayScript's NewRelic integration allows you to connect to your NewRelic account and set up default monitoring across your workspace's Lairs. You’ll get automatic visibility into the health of all pre-production, staging, and production environments via New Relic.
+WayScript's [NewRelic integration](https://newrelic.com/instant-observability/wayscript/51294fb4-6b0a-4ee5-acad-c377b3b528d5) allows you to connect to your NewRelic account and set up default monitoring across your workspace's Lairs. You’ll get automatic visibility into the health of all pre-production, staging, and production environments via New Relic.
 
 Adding the integration with enable two monitoring capabilities in your workspace Lairs:
 
