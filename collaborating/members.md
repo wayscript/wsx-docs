@@ -12,7 +12,7 @@ Navigate to Settings > Members to view a list of active and pending workspace me
 
 Select "Add member" to invite a team member by email address to your workspace. Your team member must register an account using the email address specified in the invite.
 
-![](<../.gitbook/assets/Screen Shot 2021-09-14 at 2.05.40 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-09-14-at-2.05.40-pm.png)
 
 {% hint style="info" %}
 The WayScript team is developing additional member features such as workspace roles and active directory sync. Please contact us at [support@wayscript.com](mailto:nihar@wayscript.com) if you would like to request early access.

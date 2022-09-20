@@ -28,11 +28,9 @@ pbcopy < ~/.ssh/<YOUR_PRIVATE_KEY_FILE_NAME>
 
 Head to Settings > Version Control
 
-Paste your SSH key into the SSH key field, and enter your github email and password.
+Paste your Git SSH key, passphrase, email, and username.
 
-![](<../.gitbook/assets/Screen Shot 2022-08-23 at 6.21.37 PM.png>)
-
-
+![](<../.gitbook/assets/Screen Shot 2022-09-20 at 1.17.33 PM.png>)
 
 ### Copy your ssh public key and paste it to your GitHub account
 

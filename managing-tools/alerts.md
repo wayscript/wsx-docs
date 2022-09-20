@@ -14,7 +14,7 @@ Please note that alerts will be generated on process exit and not on process sta
 
 Navigate to the 🔔 Alerts tab in your Lair toolbar. Select "+ New Alert".&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-01-24 at 11.40.17 AM (1).png>)
+![](<../.gitbook/assets/Screen Shot 2022-01-24 at 11.40.17 AM.png>)
 
 Alerts can be composed with the following parameters:
 

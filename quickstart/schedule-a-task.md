@@ -31,7 +31,7 @@ $ python task.py
 
 Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
 
-![](<../.gitbook/assets/Screen Shot 2021-09-14 at 1.58.17 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-09-14-at-1.58.17-pm.png)
 
 ### Deploy to production environment
 

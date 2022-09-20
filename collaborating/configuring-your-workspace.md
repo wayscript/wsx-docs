@@ -6,7 +6,7 @@ Your **workspace** is the root directory that contains all your tools that live 
 
 You can create a new workspace after registering your account with WayScript. When using the WayScript desktop app, you will then be directory to choose a workspace folder (see [File system](../building-tools/file-system.md) for more details).
 
-![](<../.gitbook/assets/Env 1.png>)
+![](<../.gitbook/assets/env-1 (1).png>)
 
 {% hint style="warning" %}
 Workspace names must be unique. Please modify the name of your workspace if you cannot create one.
@@ -20,7 +20,7 @@ Navigate to your workspace settings if you would like to leave your workspace. Y
 
 If you have been invited to any existing workspaces, you can join the specified workspace instead of creating a a new one. Currently, you can only be a member of one workspace; you must leave your current workspace to join a new one.
 
-![](<../.gitbook/assets/Desktop - 7.png>)
+![](../.gitbook/assets/desktop-7.png)
 
 {% hint style="info" %}
 You must have a network connection to create, leave, or join a workspace.

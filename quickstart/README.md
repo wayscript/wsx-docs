@@ -5,7 +5,7 @@
 * Access WayScript at [app.wayscript.com](https://app.wayscript.com) or download the WayScript desktop app available for MacOS and Windows at [https://www.wayscript.com/downloads](https://wayscript.com/downloads).
 * Enter a name for your workspace.&#x20;
 
-![](../.gitbook/assets/env-1.png)
+![](<../.gitbook/assets/Env 1.png>)
 
 The WayScript desktop app will create files on your local machine and sync them to a remote server. You be able to sync your files to a local directory if accessing WayScript from your browser. See [Configuring your workspace](../collaborating/configuring-your-workspace.md) for more details on workspaces.&#x20;
 
@@ -17,7 +17,7 @@ The WayScript desktop app will create files on your local machine and sync them 
 
 * Inside your workspace, select “+ New Lair” to create your first Lair!
 
-![](<../.gitbook/assets/Screen Shot 2021-09-14 at 1.50.08 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-09-14-at-1.50.08-pm.png)
 
 Now that you have created a Lair, follow one of our 5-minute tutorial to get started building tools on WayScript:
 
