@@ -8,7 +8,7 @@ To most effectively use Version Control with WayScript, you must set up your SSH
 
 #### **Generate an ssh key pair on your local computer.**
 
-Do this step on your local terminal.
+Do this step on your local terminal or command prompt.
 
 [Follow this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) on GitHub for help generating an SSH key.
 
@@ -18,11 +18,23 @@ Do this step on your local terminal.
 
 This command will copy your private key file to your clipboard, you can paste it to the private key field Note: your private key file name default is id\_ed25519.
 
+**Mac:**
+
 ```
 pbcopy < ~/.ssh/<YOUR_PRIVATE_KEY_FILE_NAME> 
 ```
 
-###
+**Windows:**
+
+```
+clip < ~/.ssh/<YOUR_PRIVATE_KEY_FILE_NAME> 
+```
+
+{% hint style="info" %}
+If `clip` or `pbcopy` isn't working, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
+{% endhint %}
+
+
 
 ### Enter your credentials in WayScript
 
