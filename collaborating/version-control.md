@@ -2,17 +2,13 @@
 
 To most effectively use Version Control with WayScript, you must set up your SSH credentials.
 
-
-
-## SETUP
+## Setup
 
 #### **Generate an ssh key pair on your local computer.**
 
 Do this step on your local terminal or command prompt.
 
 [Follow this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) on GitHub for help generating an SSH key.
-
-
 
 ### Copy the ssh private key
 
@@ -34,8 +30,6 @@ clip < ~/.ssh/<YOUR_PRIVATE_KEY_FILE_NAME>
 If `clip` or `pbcopy` isn't working, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
 {% endhint %}
 
-
-
 ### Enter your credentials in WayScript
 
 Head to Settings > Version Control
@@ -47,8 +41,6 @@ Paste your Git SSH key, passphrase, email, and username.
 ### Copy your ssh public key and paste it to your GitHub account
 
 [Head over to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) and make sure your SSH key is setup there.
-
-
 
 ## Using Version Control
 

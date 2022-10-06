@@ -29,6 +29,10 @@ WayScript currently supports the execution of tools built with the following pro
 
 Navigate to your “Lairs” view and select “+ New Lair” to create a new Lair. Lairs are initialized as a directory within your workspace root directory, containing a `.wayscript` folder for platform metadata and `.triggers` file.
 
+{% hint style="info" %}
+You can also create a Lair from a template, or a GitHub URL. If you are creating a Lair from a private GitHub repo, be sure to [setup your Version Control SSH credentials](../collaborating/version-control.md#setup) first.
+{% endhint %}
+
 #### **Duplicating a Lair**
 
 Lairs can be duplicated from your “Lairs” view through the right-click menu. The files will be duplicated from a Lair’s development environment, not its production environment. See [File system](file-system.md) and [Hosted environments](deployments.md) for more details.
