@@ -10,7 +10,7 @@ Do this step on your local terminal or command prompt.
 
 [Follow this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) on GitHub for help generating an SSH key.
 
-### Copy the ssh private key
+### Copy the SSH private key
 
 This command will copy your private key file to your clipboard, you can paste it to the private key field Note: your private key file name default is id\_ed25519.
 
