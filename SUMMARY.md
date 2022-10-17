@@ -15,10 +15,10 @@
 * [Events](building-tools/events.md)
 * [Endpoints](building-tools/endpoints.md)
 * [Deployments](building-tools/deployments.md)
+* [Environment variables](building-tools/environment-variables.md)
 * [WayScript SDK](building-tools/sdk/README.md)
   * [Example: identify requester to protected endpoints](building-tools/sdk/example-identify-requester-to-protected-endpoints.md)
   * [Example: send response to http trigger](building-tools/sdk/example-send-response-to-http-trigger.md)
-* [Environment variables](building-tools/environment-variables.md)
 
 ## Testing and Visiblity
 
@@ -50,3 +50,4 @@
   * [Headless browser (Selenium)](resources/code-snippets/headless-browser-selenium.md)
   * [Host a Django Server](resources/code-snippets/host-a-django-server.md)
 * [Security](resources/security.md)
+* [IP Addresses](resources/ip-addresses.md)
