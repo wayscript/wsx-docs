@@ -36,7 +36,7 @@ Head to Settings > Version Control
 
 Paste your Git SSH key, passphrase, email, and username.
 
-![](<../.gitbook/assets/Screen Shot 2022-09-20 at 1.17.33 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-09-20 at 1.17.33 PM.png>)
 
 ### Copy your ssh public key and paste it to your GitHub account
 

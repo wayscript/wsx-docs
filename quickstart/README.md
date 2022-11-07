@@ -1,4 +1,4 @@
-# Quickstart
+# Quickstart & Tutorials
 
 ### **1) Create a workspace**
 
@@ -7,13 +7,13 @@
 
 ![](<../.gitbook/assets/Env 1.png>)
 
-The WayScript desktop app will create files on your local machine and sync them to a remote server. You be able to sync your files to a local directory if accessing WayScript from your browser. See [Configuring your workspace](../collaborating/configuring-your-workspace.md) for more details on workspaces.&#x20;
+The WayScript desktop app will create files on your local machine and sync them to a remote server. You be able to sync your files to a local directory if accessing WayScript from your browser. See [Configuring your workspace](../platform/workspace/) for more details on workspaces.&#x20;
 
 ![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-ctT1lSpsA8/897d5cb37c8557ad9b149526e93a87b16af4e7f0f0be3aa51e4bd08c6d58007c44949fb53d3f804d60ab6953bb3c4909efbdda87870c6cf9e4af93f351cc2f42f482aa8e814a011346a8e71807b8ad97ce8824146ad13a8b7a1b3d966da21b512ef7ef54)
 
 ### **2) Create a Lair**
 
-[Lairs](../building-tools/lairs.md) are preconfigured, containerized, and flexible development environments for your code.
+[Lairs](../platform/lairs/) are preconfigured, containerized, and flexible development environments for your code.
 
 * Inside your workspace, select “+ New Lair” to create your first Lair!
 
@@ -46,12 +46,12 @@ Now that you have created a Lair, follow one of our 5-minute tutorial to get sta
 * Click deploy twice more on the following interfaces to confirm the deployment of your lair.
 
 {% hint style="info" %}
-Once deployed, triggers may activate or provide new production endpoints. For additional information on how deployment works with specific triggers, please view the [triggers page](../building-tools/triggers.md).
+Once deployed, triggers may activate or provide new production endpoints. For additional information on how deployment works with specific triggers, please view the [triggers page](../platform/lairs/triggers.md).
 {% endhint %}
 
 ### 4) Invite Teammates&#x20;
 
-Workspaces can be shared with others. This allows them to access, edit, and use the applications within the workspace depending on their [collaborating permissions](../collaborating/members.md). To invite new members into your workspace:
+Workspaces can be shared with others. This allows them to access, edit, and use the applications within the workspace depending on their [collaborating permissions](../platform/workspace/members.md). To invite new members into your workspace:
 
 * Access the home view of your workspace
 

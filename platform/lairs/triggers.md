@@ -42,7 +42,7 @@ Configured triggers only invoke processes in production Lair environments. Howev
 
 ### Manually invoking your trigger
 
-After opening the `.triggers` file, select an existing trigger to open the configuration modal. Press “Run” to execute your trigger’s run command and start the process execution. See [Processes](../testing-and-visiblity/processes.md) for more details on how to view and manage processes.
+After opening the `.triggers` file, select an existing trigger to open the configuration modal. Press “Run” to execute your trigger’s run command and start the process execution. See [Processes](processes.md) for more details on how to view and manage processes.
 
 ### Accessing your trigger’s events
 

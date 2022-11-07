@@ -2,7 +2,7 @@
 
 Your Lair is configured with two hosted environments: **development and production**. While building your tools in WayScript, you are interacting with your Lair’s development environment. Once your tool is ready for use, it can be deployed to your Lair’s production environment.
 
-Both development and production environments are use WayScript’s base container image (see [Lairs](lairs.md) for more details), so tools that have been tested on your development environment will have identical execution without any configuration. However, there are a few key operational distinction between development and production environments:
+Both development and production environments are use WayScript’s base container image (see [Lairs](./) for more details), so tools that have been tested on your development environment will have identical execution without any configuration. However, there are a few key operational distinction between development and production environments:
 
 * Triggers are not invoked in development environments. You must use manual invocations and test events in your Lair’s development environment to test your triggers’ functionality. See [Triggers](triggers.md) for more details.
 * Files cannot be directly modified in production environments. Please modify files in your Lair’s development environment and then deploy to your production environment. See [File system](file-system.md) for more details.

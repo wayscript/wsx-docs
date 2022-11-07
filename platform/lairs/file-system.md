@@ -34,7 +34,7 @@ You may not access files within other Lair directories from a selected Lair. Any
 
 Create a file or directory within your Lair's file system by pressing ＋ next to the search bar.&#x20;
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 You can also upload a file or directory from your local device's file system by dragging it into your Lair's file system.&#x20;
 

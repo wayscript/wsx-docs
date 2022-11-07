@@ -7,14 +7,14 @@ Your Lairs can be configured to generate email alerts on the following process c
 * `Any` -  process has exited with any status, including "Done", "Killed", or "Failed"
 
 {% hint style="info" %}
-Please note that alerts will be generated on process exit and not on process start and will only be generated in your Lair's production environment. Please see [processes.md](../testing-and-visiblity/processes.md "mention") for more details on process status and [deployments.md](../building-tools/deployments.md "mention") for instructions on how to deploy your Lair to its production environment.&#x20;
+Please note that alerts will be generated on process exit and not on process start and will only be generated in your Lair's production environment. Please see [processes.md](processes.md "mention") for more details on process status and [deployments.md](deployments.md "mention") for instructions on how to deploy your Lair to its production environment.&#x20;
 {% endhint %}
 
 ### Creating an alert
 
 Navigate to the 🔔 Alerts tab in your Lair toolbar. Select "+ New Alert".&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-01-24 at 11.40.17 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-01-24 at 11.40.17 AM.png>)
 
 Alerts can be composed with the following parameters:
 
@@ -24,5 +24,5 @@ Alerts can be composed with the following parameters:
 * **Trigger** (optional) - select a specific trigger, by name, where only its invoked processes will generate alerts; otherwise all processes in the Lair will generate alerts
 
 {% hint style="warning" %}
-If you create a new alert or modify an alert, you must re-deploy your Lair to its production environment for the changes to take effect. Please see [deployments.md](../building-tools/deployments.md "mention")for more details on how to re-deploy.&#x20;
+If you create a new alert or modify an alert, you must re-deploy your Lair to its production environment for the changes to take effect. Please see [deployments.md](deployments.md "mention")for more details on how to re-deploy.&#x20;
 {% endhint %}

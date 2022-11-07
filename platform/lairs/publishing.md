@@ -7,7 +7,7 @@ Your Lair can be published to share with publicly with external audiences. Once 
 Navigate to the 🌎 “Publish” tab in your Lair's toolbar. Click the "Publish" button to generate a published link.&#x20;
 
 {% hint style="info" %}
-Your Lair must be deployed to a production environment before it can be published, and on clone, your Lair's file system on its production environment will be shared. Please see [deployments.md](../building-tools/deployments.md "mention") for more details.&#x20;
+Your Lair must be deployed to a production environment before it can be published, and on clone, your Lair's file system on its production environment will be shared. Please see [deployments.md](deployments.md "mention") for more details.&#x20;
 {% endhint %}
 
 ![](https://codahosted.io/docs/1freZEhPvo/blobs/bl-iEs3ibpDpE/9f7251e9b3112f940ae761a96f19a4af848b2078bb211914f683e7f44b608a2134e730b7dbb6407bf62f72bce81ba66d28df4f9c2b07d24ae6b43ab525839f0e0ca795e6665a8dd7bcd6d4eab906fce09d0c1ce0d24d435f7c509f9c3b8ecd45386df73f)
@@ -20,4 +20,4 @@ Once published, you can preview or copy the endpoint to your clipboard and share
 
 Navigate to a published Lair's endpoint to view its README, if available, and clone the Lair to your workspace. You must be logged-in to clone a published Lair.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-01-22 at 1.39.11 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-01-22 at 1.39.11 PM.png>)

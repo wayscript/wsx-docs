@@ -4,7 +4,7 @@ Events are data payloads that are passed to your processes when your Lair’s tr
 
 ### Access**ing** events within your Lair
 
-Events can be accessed using WayScript’s `context` package. Simply import the package and call `get_event()` to output your event data (see [SDK](sdk/) for more details). The event will be returned as a json dictionary object.
+Events can be accessed using WayScript’s `context` package. Simply import the package and call `get_event()` to output your event data (see [SDK](../../using-wayscript/sdk/) for more details). The event will be returned as a json dictionary object.
 
 **Import** **context** **package and get event**
 

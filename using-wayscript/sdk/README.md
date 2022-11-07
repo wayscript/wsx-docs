@@ -23,7 +23,7 @@ from wayscript import context
 | `context.get_user_by_application_key(`<`application_key>)` | Get metadata for workspace member from application key | application\_key: str | dict        |
 
 {% hint style="info" %}
-The `get_user_by_application_key` method requires fetching the [application key](../endpoints.md) from  the header of the request made to your Lair. We provide an [example](example-identify-requester-to-protected-endpoints.md) on how to access the request header in your tool.&#x20;
+The `get_user_by_application_key` method requires fetching the [application key](../../platform/lairs/endpoints.md) from  the header of the request made to your Lair. We provide an [example](example-identify-requester-to-protected-endpoints.md) on how to access the request header in your tool.&#x20;
 {% endhint %}
 
 #### `wayscript.triggers`
@@ -53,7 +53,7 @@ const wayscript = require("wayscript");
 | `context.getUserByApplicationKey(application_key)` | Get metadata for workspace member from application key | application\_key: str | obj |
 
 {% hint style="info" %}
-The `get_user_by_application_key` method requires fetching the [application key](../endpoints.md) from  the header of the request made to your Lair. We provide an [example](example-identify-requester-to-protected-endpoints.md) on how to access the request header in your tool.&#x20;
+The `get_user_by_application_key` method requires fetching the [application key](../../platform/lairs/endpoints.md) from  the header of the request made to your Lair. We provide an [example](example-identify-requester-to-protected-endpoints.md) on how to access the request header in your tool.&#x20;
 {% endhint %}
 
 **`wayscript.http_trigger`**

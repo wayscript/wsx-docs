@@ -13,7 +13,7 @@ Requests to protected endpoints can be made in two ways:
 
 Your application key can be accessed by navigating to your workspace settings and selecting "Application Key". You can then view and/or copy your application key.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-01-24 at 12.28.10 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-01-24 at 12.28.10 PM.png>)
 
 {% hint style="info" %}
 Application keys are unique both per workspace member and per workspace (if the account is a member of multiple workspaces). If your application key is compromised, you can regenerated a new key, which will invalidate your old key. &#x20;
@@ -53,7 +53,7 @@ If you receive a 403 response when accessing your endpoint, and are providing an
 
 Navigate to the 🔗 Endpoint tab in your Lair toolbar to view a list of all generated endpoints for your Lair.
 
-![](<../.gitbook/assets/Screen Shot 2022-01-24 at 12.11.56 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-01-24 at 12.11.56 PM.png>)
 
 #### Setting endpoints to be publicly accessible
 
