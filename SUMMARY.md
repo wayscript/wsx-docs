@@ -24,19 +24,25 @@
 * [Workspaces](platform/workspace/README.md)
   * [Billing](platform/workspace/billing.md)
   * [Workspace Logs](platform/workspace/workspace-logs.md)
-  * [Version Control](platform/workspace/version-control.md)
   * [Members](platform/workspace/members.md)
   * [Groups](platform/workspace/groups.md)
   * [Integrations](platform/workspace/integrations/README.md)
     * [New Relic](platform/workspace/integrations/new-relic.md)
+* [Account](platform/account/README.md)
+  * [Version Control](platform/account/version-control.md)
+  * [Profile](platform/account/profile.md)
+  * [Application Keys](platform/account/application-keys.md)
 * [Usage](platform/usage.md)
 
 ## Using WayScript
 
+* [Desktop App](using-wayscript/desktop-app/README.md)
+  * [Using Your Own IDE](using-wayscript/desktop-app/using-your-own-ide.md)
+  * [Auto-Sync](using-wayscript/desktop-app/auto-sync.md)
 * [WayScript SDK](using-wayscript/sdk/README.md)
   * [Example: identify requester to protected endpoints](using-wayscript/sdk/example-identify-requester-to-protected-endpoints.md)
   * [Example: send response to http trigger](using-wayscript/sdk/example-send-response-to-http-trigger.md)
-* [Self-hosting](using-wayscript/self-hosting.md)
+* [Self-Hosting](using-wayscript/self-hosting.md)
 
 ## Resources
 

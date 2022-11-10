@@ -2,6 +2,15 @@
 
 Every Lair's base container includes the [Chrome headless browser](https://developers.google.com/web/updates/2017/04/headless-chrome), which you can interact with using Selenium or a similar package.
 
+### Install Selenium as a Package
+
+Type the following two commands into your WayScript Terminal
+
+```
+pip install selenium
+pip freeze > requirements.txt
+```
+
 ### Python
 
 ```python
