@@ -1,6 +1,6 @@
 # Usage
 
-The Usage view shows your current consumption of WayScript.
+The Usage view shows usage analytics for Lairs in your Workspace. To access it, click on Usage in the left nav bar from the home page.
 
 ### Usage Components
 
