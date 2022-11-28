@@ -1,6 +1,8 @@
 # What is WayScript?
 
-WayScript is a development hub for internal tools. WayScript provides **instant, cloud-hosted containers** to allow developers to focus on writing code instead of managing infrastructure. Common use cases include setting up internal microservices, hosting full-fledged apps, and executing scripts via cron / other triggers.‌
+WayScript is an internal developer platform (IDP) for internal tools. It makes it easy for developers and people who code to write and deploy secure code for their team’s internal tools, data pipelines, and analytics.&#x20;
+
+WayScript provides **instant, cloud-hosted containers** to allow developers to focus on writing code instead of managing infrastructure. Common use cases include setting up internal microservices, hosting full-fledged apps, and executing scripts via cron / other triggers.‌
 
 Each container is managed in a dedicated, pre-configured environment (managed by WayScript or self-hosted), deployed with a single click, and pre-built with monitoring and permission controls.&#x20;
 
