@@ -9,8 +9,6 @@ Use the boilerplate code below to create a `main.py` file in your Lair’s root 
 ### Set Up main.py
 
 ```python
-# my-lair-a > main.py
-
 from fastapi import FastAPI
 
 # Creates our FastAPI application
@@ -25,12 +23,12 @@ def home():
 
 ### Add packages to `requirements.txt`
 
-Create a `requirements.txt` file in your Lair’s root directory and specify the fastapi and uvicorn packages. You can also specify any additional dependencies your app requires. See [Hosted environments ](../platform/lairs/deployments.md)for more details.
+Create a `requirements.txt` file in your Lair’s root directory and specify the fastapi and uvicorn packages. You can do so by `pip` installing them in your WayScript [Terminal](../platform/lairs/terminal.md). You can also specify any additional dependencies your app requires. See [Hosted environments ](../platform/lairs/deployments.md)for more details.
 
 ```
-# my-lair-a > requirements.txt
-fastapi
-uvicorn
+pip install fastapi
+pip install uvicorn
+pip freeze > requirements.txt
 ```
 
 ### Configure `deploy` trigger
