@@ -55,7 +55,7 @@ Make sure to set the Port to 8080 on your Deploy Trigger!
 
 ### Test app in development environment
 
-Press “Test” to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
+Press “Test” to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your Node app in action!
 
 ### Deploy to production environment
 
