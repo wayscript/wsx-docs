@@ -1,12 +1,10 @@
-# Host a service
+# Set Up a Flask Server (Python)
 
 WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to setup a simple Flask app in your Lair.&#x20;
 
 ### Create `app.py` or load Flask files
 
 Use the boilerplate code below to create a `app.py` file in your Lair’s root directory. Or if you have an existing Flask project, copy or clone your project files into your Lair’s directory. See [File system](../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
-
-![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-Iqkx-tphjD/3d584a55f32dbc8c4e8cf462e3eb9867bbcaf47440586f29d25f94abb1d90be28f4433566d59fc5bfeef80fb761d4e93785f99ec6a64bd561d70e8c2785ae52f342dcf4729de3a496500f8f7ee8d21e20f6ee3321ca9844abc41275391641b8d1fff3ebe)
 
 #### Boilerplate `app.py`
 
@@ -27,11 +25,11 @@ if __name__ == '__main__':
 
 ### Add packages to `requirements.txt`
 
-Create a `requirements.txt` file in your Lair’s root directory and specify the `flask` package. You can also specify any additional dependencies your app requires. See [Hosted environments ](../platform/lairs/deployments.md)for more details.
+Create a `requirements.txt` file in your Lair’s root directory and specify the `flask` package. You can install the `flask` package via `pip` in your Lair [Terminal](../platform/lairs/terminal.md). You can also specify any additional dependencies your app requires. See [Hosted environments ](../platform/lairs/deployments.md)for more details.
 
 ```
-# my-lair > requirements.txt
-flask==2.0.1
+pip install flask
+pip freeze > requirements.txt
 ```
 
 ### Configure `deploy` trigger

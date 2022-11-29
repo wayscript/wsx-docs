@@ -4,7 +4,7 @@
 * [Quickstart & Tutorials](quickstart/README.md)
   * [Build an API](quickstart/build-an-api.md)
   * [Schedule a task](quickstart/schedule-a-task.md)
-  * [Host a service](quickstart/host-a-flask-server.md)
+  * [Set Up a Flask Server (Python)](quickstart/host-a-flask-server.md)
   * [Set Up FastAPI Server](quickstart/set-up-fastapi-server.md)
 
 ## Platform
