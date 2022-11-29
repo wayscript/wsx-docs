@@ -4,8 +4,9 @@
 * [Quickstart & Tutorials](quickstart/README.md)
   * [Build a Microservice](quickstart/build-an-api.md)
   * [Schedule a Task (cron)](quickstart/schedule-a-task.md)
-  * [Set Up a Flask Server (Python)](quickstart/host-a-flask-server.md)
+  * [Setup a Flask Server (Python)](quickstart/host-a-flask-server.md)
   * [Set Up FastAPI Server](quickstart/set-up-fastapi-server.md)
+  * [Setup a Node Express Server (NodeJS)](quickstart/setup-a-node-express-server-nodejs.md)
 
 ## Platform
 
