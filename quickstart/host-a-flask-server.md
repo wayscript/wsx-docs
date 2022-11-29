@@ -9,8 +9,6 @@ Use the boilerplate code below to create a `app.py` file in your Lair’s root d
 #### Boilerplate `app.py`
 
 ```python
-# my-lair-a > app.py
-
 from flask import Flask
 
 app = Flask(__name__)
