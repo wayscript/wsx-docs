@@ -1,8 +1,6 @@
-# Setup a Flask Server (Python)
+# Set Up a Flask Server (Python)
 
 WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to setup a simple Flask app in your Lair.&#x20;
-
-{% embed url="https://www.youtube.com/watch?v=qON6a6r-TAU" %}
 
 ### Create `app.py` or load Flask files
 
