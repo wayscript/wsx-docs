@@ -1,4 +1,4 @@
-# Schedule a task
+# Schedule a Task (cron)
 
 WayScript allows you to configure your Lair to schedule task execution in minutes.
 
@@ -6,13 +6,9 @@ WayScript allows you to configure your Lair to schedule task execution in minute
 
 Use the boilerplate code below to create a `task.py` file in your Lair’s root directory. See [File system](../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
 
-![](https://codahosted.io/docs/2kDMDaZ6QP/blobs/bl-Iqkx-tphjD/3d584a55f32dbc8c4e8cf462e3eb9867bbcaf47440586f29d25f94abb1d90be28f4433566d59fc5bfeef80fb761d4e93785f99ec6a64bd561d70e8c2785ae52f342dcf4729de3a496500f8f7ee8d21e20f6ee3321ca9844abc41275391641b8d1fff3ebe)
-
 #### Boilerplate `task.py`
 
 ```python
-# my-lair-a > task.py
-
 i = 0
 while i < 5:
     print("This prints five times.")
@@ -24,7 +20,7 @@ while i < 5:
 Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name for your trigger, input the following run command, and set an interval or custom cron syntax for your task. See [Triggers](../platform/lairs/triggers.md) for more details.
 
 ```
-$ python task.py
+python task.py
 ```
 
 ### Test your task execution in development environment

@@ -2,8 +2,8 @@
 
 * [What is WayScript?](README.md)
 * [Quickstart & Tutorials](quickstart/README.md)
-  * [Build an API](quickstart/build-an-api.md)
-  * [Schedule a task](quickstart/schedule-a-task.md)
+  * [Build a Microservice](quickstart/build-an-api.md)
+  * [Schedule a Task (cron)](quickstart/schedule-a-task.md)
   * [Set Up a Flask Server (Python)](quickstart/host-a-flask-server.md)
   * [Set Up FastAPI Server](quickstart/set-up-fastapi-server.md)
 
