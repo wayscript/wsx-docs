@@ -1,4 +1,4 @@
-# Set Up FastAPI Server
+# Setup a FastAPI Server (Python)
 
 WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to set up a simple FastAPI app in your Lair.&#x20;
 
@@ -39,7 +39,7 @@ Open your Lair’s `.triggers` file and add a new `deploy` trigger. Create a nam
 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8080
 ```
 
-Press the play button on your triggers table to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
+Press the play button on your triggers table to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your FastAPI app in action!
 
 ### Deploy to production environment
 
