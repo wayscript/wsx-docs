@@ -49,6 +49,10 @@ Now that you have created a Lair, follow one of our 5-minute tutorial to get sta
 Once deployed, triggers may activate or provide new production endpoints. For additional information on how deployment works with specific triggers, please view the [triggers page](../platform/lairs/triggers.md).
 {% endhint %}
 
+{% hint style="warning" %}
+To avoid automatic Lair de-deployment, [subscribe to a paid plan](https://www.wayscript.com/pricing) or make sure to log into your WayScript account at least once every 3 months.&#x20;
+{% endhint %}
+
 ### 4) Invite Teammates&#x20;
 
 Workspaces can be shared with others. This allows them to access, edit, and use the applications within the workspace depending on their [collaborating permissions](../platform/workspace/members.md). To invite new members into your workspace:
@@ -69,4 +73,5 @@ An alternative hotkey to access workspace settings is `W` then `S`
 *
 
     <figure><img src="../.gitbook/assets/workspace-members-invite.jpg" alt=""><figcaption><p>( Purple Button in top right )</p></figcaption></figure>
-* Enter the emails of the members you would like to invite.&#x20;
+* Enter the emails of the members you would like to invite.
+

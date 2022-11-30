@@ -7,6 +7,7 @@
   * [Setup a Flask Server (Python)](quickstart/host-a-flask-server.md)
   * [Setup a FastAPI Server (Python)](quickstart/set-up-fastapi-server.md)
   * [Setup a Node Express Server (NodeJS)](quickstart/setup-a-node-express-server-nodejs.md)
+  * [Setup a GO Server (GOLang)](quickstart/setup-a-go-server-golang.md)
 
 ## Platform
 
