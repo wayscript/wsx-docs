@@ -8,6 +8,10 @@ Both development and production environments are use WayScript’s base containe
 * Files cannot be directly modified in production environments. Please modify files in your Lair’s development environment and then deploy to your production environment. See [File system](file-system.md) for more details.
 * WayScript will generate different endpoints for your development and production environments. Please ensure you are using the correct endpoint when accessing your tools.
 
+{% hint style="warning" %}
+To avoid automatic Lair de-deployment, [subscribe to a paid plan](https://www.wayscript.com/pricing) or make sure to log into your WayScript account at least once every 3 months.&#x20;
+{% endhint %}
+
 ### Deploying your Lair to production environment
 
 Once your tool has been tested with your Lair’s development environment, simply click “Deploy” to setup a production environment.
