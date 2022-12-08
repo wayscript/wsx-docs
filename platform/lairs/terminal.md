@@ -35,3 +35,10 @@ Exiting the Lair editor will terminate the terminal session and any processes th
 * Each Lair terminal can only access the files within the current Lair directory. See [File system](file-system.md) for more details.
 * Terminal sessions use independent containerized environments, so changes made to the environment will not persist across sessions or within your Lair environment. For example, installed Python libraries (through `pip`) will be discarded on session close. However, you can use standard `requirements.txt` or `package.json` dependency files to load packages on session start; see [Hosted environments](deployments.md) for more details.
 * The Lair terminal currently does not render terminal programs or abstractions such as `vim` . Please use these at your own risk.
+
+### Troubleshooting Reported Issues
+
+{% hint style="info" %}
+If trying to install Tensorflow, use the following install command: `pip install tensorflow --no-cache-dir`
+{% endhint %}
+
