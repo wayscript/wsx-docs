@@ -38,6 +38,8 @@ Exiting the Lair editor will terminate the terminal session and any processes th
 
 ### Troubleshooting Reported Issues
 
+Tensorflow:
+
 {% hint style="info" %}
 If trying to install Tensorflow, use the following install command: `pip install tensorflow --no-cache-dir`
 {% endhint %}
