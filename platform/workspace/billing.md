@@ -4,8 +4,6 @@
 
 The pricing plans are determined by five usage components: runtime hours, invocations, triggers in a workspace, members in a workspace, and Lairs in a workspace. You can monitor your usage of all these components in the Usage view for each workspace.
 
-<figure><img src="../../.gitbook/assets/pricing.png" alt=""><figcaption></figcaption></figure>
-
 ### **Upgrading Your Plan**
 
 You can upgrade your plan by clicking on your workspace name in the top left corner and navigating to Settings > Billing. Alternatively, you can click “Get more usage” from the top of the Usage view page.
