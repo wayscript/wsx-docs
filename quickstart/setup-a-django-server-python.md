@@ -37,10 +37,10 @@ python mysite/manage.py runserver 0.0.0.0:8080
 
 ### Setting Django Hosts
 
-Once your project is created, Django will require the domain that hosts your application to be added to the `settings.py` file
+Once your project is created, Django will require the domain that hosts your application to be added to the `settings.py` file in your application directory. You can grab the domain from your Deploy [Trigger](../platform/lairs/triggers.md) or from the [Endpoints](../platform/lairs/endpoints.md) tab.&#x20;
 
 ```
-ALLOWED_HOSTS = ['<DOMAIN_FROM_DEPLOY_TRIGGER']
+ALLOWED_HOSTS = ['<DOMAIN_FROM_DEPLOY_TRIGGER>']
 ```
 
 ### Test app in development environment
