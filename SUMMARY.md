@@ -6,9 +6,9 @@
   * [Schedule a Task (cron)](quickstart/schedule-a-task.md)
   * [Setup a Flask Server (Python)](quickstart/host-a-flask-server.md)
   * [Setup a FastAPI Server (Python)](quickstart/set-up-fastapi-server.md)
+  * [Setup a Django Server (Python)](quickstart/setup-a-django-server-python.md)
   * [Setup a Node Express Server (NodeJS)](quickstart/setup-a-node-express-server-nodejs.md)
   * [Setup a GO Server (GOLang)](quickstart/setup-a-go-server-golang.md)
-  * [Setup a Django Server (Python)](quickstart/setup-a-django-server-python.md)
 
 ## Platform
 
