@@ -8,6 +8,7 @@
   * [Setup a FastAPI Server (Python)](quickstart/set-up-fastapi-server.md)
   * [Setup a Node Express Server (NodeJS)](quickstart/setup-a-node-express-server-nodejs.md)
   * [Setup a GO Server (GOLang)](quickstart/setup-a-go-server-golang.md)
+  * [Setup a Django Server (Python)](quickstart/setup-a-django-server-python.md)
 
 ## Platform
 
