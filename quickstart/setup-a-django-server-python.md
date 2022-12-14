@@ -2,6 +2,8 @@
 
 WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to setup a simple Django app in your Lair.&#x20;
 
+{% embed url="https://youtu.be/LoXVosOzvJg" %}
+
 ### Add packages to `requirements.txt`
 
 Create a `requirements.txt` file in your Lair’s root directory and specify the django package. You can install the django package via `pip` in your Lair [Terminal](../platform/lairs/terminal.md). You can also specify any additional dependencies your app requires. See [Hosted environments ](../platform/lairs/deployments.md)for more details.
