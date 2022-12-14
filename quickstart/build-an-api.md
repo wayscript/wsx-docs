@@ -1,4 +1,4 @@
-# Build an API
+# Build a Microservice
 
 WayScript allows you to configure your Lair to build an serverless API endpoint in minutes.
 
@@ -32,10 +32,10 @@ http_trigger.send_response(data=response_payload, headers=response_headers, stat
 
 ### Configure `http` trigger
 
-Open your Lair’s `.triggers` file and add a new `http` trigger. Create a name for your trigger and input the following run command. See [Triggers](../platform/lairs/triggers.md) for more details.
+Open your Lair’s [Triggers Panel](../platform/lairs/triggers.md) and add a new `http` trigger. Create a name for your trigger and input the following run command. See [Triggers](../platform/lairs/triggers.md) for more details.
 
 ```bash
-$ python api.py
+python api.py
 ```
 
 {% hint style="info" %}
