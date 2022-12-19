@@ -51,6 +51,5 @@
 
 * [Code snippets](resources/code-snippets/README.md)
   * [Headless browser (Selenium)](resources/code-snippets/headless-browser-selenium.md)
-  * [Host a Django Server](resources/code-snippets/host-a-django-server.md)
 * [Security](resources/security.md)
 * [IP Addresses](resources/ip-addresses.md)
