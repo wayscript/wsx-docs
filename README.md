@@ -10,4 +10,4 @@ With WayScript, you can unblock data access by quickly turning database queries 
 
 #### Overview of WayScript's core features
 
-{% embed url="https://www.youtube.com/watch?t=177s&v=clxsmgd4g5Y" %}
+[![What is WayScript X](https://user-images.githubusercontent.com/101400043/210129803-e2e35f80-403a-4bbb-8f3c-aa0d3bd5c31f.JPG)](https://www.youtube.com/watch?t=177s&v=clxsmgd4g5Y)
