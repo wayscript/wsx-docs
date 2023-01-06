@@ -53,3 +53,4 @@
   * [Headless browser (Selenium)](resources/code-snippets/headless-browser-selenium.md)
 * [Security](resources/security.md)
 * [IP Addresses](resources/ip-addresses.md)
+* [Supported Languages](resources/supported-languages.md)
