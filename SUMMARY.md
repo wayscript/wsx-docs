@@ -1,14 +1,16 @@
 # Table of contents
 
 * [What is WayScript?](README.md)
-* [Quickstart & Tutorials](quickstart/README.md)
-  * [Build a Microservice](quickstart/build-an-api.md)
-  * [Schedule a Task (cron)](quickstart/schedule-a-task.md)
-  * [Setup a Flask Server (Python)](quickstart/host-a-flask-server.md)
-  * [Setup a FastAPI Server (Python)](quickstart/set-up-fastapi-server.md)
-  * [Setup a Django Server (Python)](quickstart/setup-a-django-server-python.md)
-  * [Setup a Node Express Server (NodeJS)](quickstart/setup-a-node-express-server-nodejs.md)
-  * [Setup a GO Server (GOLang)](quickstart/setup-a-go-server-golang.md)
+* [Quickstart: Schedule a task](quickstart-schedule-task/README.md)
+  * [Schedule a Python cron task](quickstart-schedule-task/schedule-a-task.md)
+* [Quickstart: Spin up a web server or framework](quickstart-spin-up-server/README.md)
+  * [Setup a Flask Server (Python)](quickstart-spin-up-server/host-a-flask-server.md)
+  * [Setup a FastAPI Server (Python)](quickstart-spin-up-server/set-up-fastapi-server.md)
+  * [Setup a Django Server (Python)](quickstart-spin-up-server/setup-a-django-server-python.md)
+  * [Setup a Node Express Server (NodeJS)](quickstart-spin-up-server/setup-a-node-express-server-nodejs.md)
+  * [Setup a GO Server (GOLang)](quickstart-spin-up-server/setup-a-go-server-golang.md)
+* [Quickstart: Create a webhook or microservice](quickstart-webhook-microservice/README.md)
+  * [Build a Microservice](quickstart-webhook-microservice/build-an-api.md)
 
 ## Platform
 

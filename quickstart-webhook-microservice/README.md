@@ -1,4 +1,4 @@
-# Quickstart & Tutorials
+# Quickstart: Create a webhook or microservice
 
 ### **1) Create a workspace**
 
@@ -21,20 +21,8 @@ The WayScript desktop app will create files on your local machine and sync them 
 
 Now that you have created a Lair, follow one of our 5-minute tutorial to get started building tools on WayScript:
 
-{% content-ref url="build-an-api.md" %}
-[build-an-api.md](build-an-api.md)
-{% endcontent-ref %}
-
-{% content-ref url="schedule-a-task.md" %}
-[schedule-a-task.md](schedule-a-task.md)
-{% endcontent-ref %}
-
-{% content-ref url="host-a-flask-server.md" %}
-[host-a-flask-server.md](host-a-flask-server.md)
-{% endcontent-ref %}
-
-{% content-ref url="set-up-fastapi-server.md" %}
-[set-up-fastapi-server.md](set-up-fastapi-server.md)
+{% content-ref url="../quickstart-schedule-task/schedule-a-task.md" %}
+[schedule-a-task.md](../quickstart-schedule-task/schedule-a-task.md)
 {% endcontent-ref %}
 
 ### **3)** Deploy a Lair &#x20;
