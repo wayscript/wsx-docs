@@ -21,8 +21,8 @@ The WayScript desktop app will create files on your local machine and sync them 
 
 Now that you have created a Lair, follow one of our 5-minute tutorial to get started building tools on WayScript:
 
-{% content-ref url="../quickstart-schedule-task/schedule-a-task.md" %}
-[schedule-a-task.md](../quickstart-schedule-task/schedule-a-task.md)
+{% content-ref url="build-an-api.md" %}
+[build-an-api.md](build-an-api.md)
 {% endcontent-ref %}
 
 ### **3)** Deploy a Lair &#x20;
