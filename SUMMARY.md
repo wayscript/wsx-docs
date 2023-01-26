@@ -10,7 +10,8 @@
   * [Setup a Node Express Server (NodeJS)](quickstart-spin-up-server/setup-a-node-express-server-nodejs.md)
   * [Setup a GO Server (GOLang)](quickstart-spin-up-server/setup-a-go-server-golang.md)
 * [Quickstart: Create a webhook or microservice](quickstart-webhook-microservice/README.md)
-  * [Build a Microservice](quickstart-webhook-microservice/build-an-api.md)
+  * [Build a Microservice (Python)](quickstart-webhook-microservice/build-an-api.md)
+  * [Build a Microservice ( JavaScript )](quickstart-webhook-microservice/build-a-microservice-javascript.md)
 
 ## Platform
 
