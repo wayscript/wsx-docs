@@ -8,6 +8,6 @@ Each container is managed in a dedicated, pre-configured environment (managed by
 
 With WayScript, you can unblock data access by quickly turning database queries into secure REST API routes for your team or customers. You can set up batch data migrations to run asynchronously. You can even build interfaces for non-technical teams. The possibilities are endless!
 
-#### Overview of WayScript's core features
+#### Welcome to Your Lair: A WayScript Platform Tour
 
-{% embed url="https://www.youtube.com/watch?t=177s&v=clxsmgd4g5Y" %}
+{% embed url="https://youtu.be/zk8G_5i01rk" %}
