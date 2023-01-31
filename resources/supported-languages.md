@@ -15,6 +15,7 @@ support for the following languages are still in beta. Please report any issues 
 * Rust 1.48
 * Java 11
 * PHP 7.4
+* R 4.04
 
 ### Special considerations for PHP
 
