@@ -38,3 +38,7 @@ Your task will not be scheduled within your Lair’s development environment. On
 {% hint style="info" %}
 In order for your scheduled task to run, you must [Deploy](../../platform/lairs/deployments.md) the lair!
 {% endhint %}
+
+### View Logs
+
+[Logs](../../platform/lairs/logs.md) are automatically stored for both Development tests and Production runs of your task.&#x20;
