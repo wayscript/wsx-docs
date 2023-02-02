@@ -21,20 +21,20 @@ The WayScript desktop app will create files on your local machine and sync them 
 
 Now that you have created a Lair, follow one of our 5-minute tutorial to get started building tools on WayScript:
 
-{% content-ref url="../quickstart-webhook-microservice/build-an-api.md" %}
-[build-an-api.md](../quickstart-webhook-microservice/build-an-api.md)
+{% content-ref url="../quickstart-webhook-microservice/python/build-an-api.md" %}
+[build-an-api.md](../quickstart-webhook-microservice/python/build-an-api.md)
 {% endcontent-ref %}
 
 {% content-ref url="../quickstart-schedule-task/python/schedule-a-task.md" %}
 [schedule-a-task.md](../quickstart-schedule-task/python/schedule-a-task.md)
 {% endcontent-ref %}
 
-{% content-ref url="host-a-flask-server.md" %}
-[host-a-flask-server.md](host-a-flask-server.md)
+{% content-ref url="python/host-a-flask-server.md" %}
+[host-a-flask-server.md](python/host-a-flask-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="set-up-fastapi-server.md" %}
-[set-up-fastapi-server.md](set-up-fastapi-server.md)
+{% content-ref url="python/set-up-fastapi-server.md" %}
+[set-up-fastapi-server.md](python/set-up-fastapi-server.md)
 {% endcontent-ref %}
 
 ### **3)** Deploy a Lair &#x20;
