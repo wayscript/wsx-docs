@@ -17,21 +17,23 @@ while i < 5:
 
 ### Configure `cron` trigger
 
-Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name for your trigger, input the following run command, and set an interval or custom cron syntax for your task. See [Triggers](../../platform/lairs/triggers.md) for more details.
+Open your Lair’s [Triggers Panel](../../platform/lairs/triggers.md) and add a new `cron` trigger. Create a name for your trigger, input the following run command, and set an interval or custom cron syntax for your task. See [Triggers](../../platform/lairs/triggers.md) for more details.
 
 ```
 python task.py
 ```
 
-### Test your task execution in development environment
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.35.21 PM.png" alt=""><figcaption><p>Example Cron Trigger Setup</p></figcaption></figure>
 
-Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
+### Test your task execution in the development environment
 
-![](../../.gitbook/assets/screen-shot-2021-09-14-at-1.58.17-pm.png)
+Press “Test” to execute the run command and start your task’s process execution. A process tab should open in your Terminal view.&#x20;
 
-### Deploy to production environment
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.37.35 PM.png" alt=""><figcaption><p>Press Test in your Triggers view to test your cron Trigger. When ready, deploy it to production!</p></figcaption></figure>
 
-Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../../platform/lairs/deployments.md) for more details.
+### Deploy to a Production environment
+
+Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, Go to the [Deploy Panel](../../platform/lairs/deployments.md) to deploy a production instance of your task.&#x20;
 
 {% hint style="info" %}
 In order for your scheduled task to run, you must [Deploy](../../platform/lairs/deployments.md) the lair!
