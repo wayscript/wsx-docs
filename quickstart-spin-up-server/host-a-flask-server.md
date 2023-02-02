@@ -32,6 +32,8 @@ pip install flask
 pip freeze > requirements.txt
 ```
 
+<figure><img src="../.gitbook/assets/flask-requirements.png" alt=""><figcaption><p>Add flask to your requirements.txt file</p></figcaption></figure>
+
 ### Configure `deploy` trigger
 
 Open your Lair’s `.triggers` file and add a new `deploy` trigger. Create a name for your trigger and input the following run command and port number `8080` (or modified command and port number based on your app requirements). See [Triggers](../platform/lairs/triggers.md) for more details.
@@ -40,11 +42,13 @@ Open your Lair’s `.triggers` file and add a new `deploy` trigger. Create a nam
 flask run --port 8080 --host 0.0.0.0
 ```
 
+<figure><img src="../.gitbook/assets/flask-deploy-trigger.png" alt=""><figcaption><p>Example Flask Trigger Setup</p></figcaption></figure>
+
 ### Test app in development environment
 
-Press “Run” to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
+Press “Test” to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your Flask app in action!
 
-![](../.gitbook/assets/flask-app-settings-preview.png)
+<figure><img src="../.gitbook/assets/run-flask-server.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Set `FLASK_ENV=development` to enable hot reload of your server process when modifying your app’s files.
