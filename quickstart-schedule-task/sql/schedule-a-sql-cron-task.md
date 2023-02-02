@@ -45,7 +45,7 @@ Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name 
 python task.py
 ```
 
-<figure><img src="../../.gitbook/assets/python-cron" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/python-cron" alt=""><figcaption><p>Example Cron Trigger Setup</p></figcaption></figure>
 
 ### Test your task execution in development environment
 
