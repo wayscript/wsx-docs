@@ -47,14 +47,22 @@ Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name 
 go run send_get.go
 ```
 
-<figure><img src="../../.gitbook/assets/cron-go-setup.jpg" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.51.52 PM.png" alt=""><figcaption><p>Example Cron Trigger Setup</p></figcaption></figure>
 
 ### Test your task execution in development environment
 
-Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
+Press “Test” to execute the run command and start your task’s process execution. A process tab should open in your Terminal view.&#x20;
 
-### Deploy to production environment
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.51.37 PM.png" alt=""><figcaption><p>Press Test in your Triggers view to test your cron Trigger. When ready, deploy it to production!</p></figcaption></figure>
 
-Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../../platform/lairs/deployments.md) for more details.
+### Deploy to a Production environment
+
+Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, Go to the [Deploy Panel](../../platform/lairs/deployments.md) to deploy a production instance of your task.&#x20;
+
+{% hint style="info" %}
+In order for your scheduled task to run, you must [Deploy](../../platform/lairs/deployments.md) the lair!
+{% endhint %}
+
+### View Logs
+
+[Logs](../../platform/lairs/logs.md) are automatically stored for both Development tests and Production runs of your task.
