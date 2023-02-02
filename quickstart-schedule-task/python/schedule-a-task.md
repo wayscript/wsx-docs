@@ -23,13 +23,13 @@ Open your Lair’s [Triggers Panel](../../platform/lairs/triggers.md) and add a 
 python task.py
 ```
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.35.21 PM.png" alt=""><figcaption><p>Example Cron Trigger Setup</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/python-cron" alt=""><figcaption><p>Example Cron Trigger Setup</p></figcaption></figure>
 
 ### Test your task execution in the development environment
 
 Press “Test” to execute the run command and start your task’s process execution. A process tab should open in your Terminal view.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.37.35 PM.png" alt=""><figcaption><p>Press Test in your Triggers view to test your cron Trigger. When ready, deploy it to production!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/python-cron-task.png" alt=""><figcaption><p>Press Test in your Triggers view to test your cron Trigger. When ready, deploy it to production!</p></figcaption></figure>
 
 ### Deploy to a Production environment
 

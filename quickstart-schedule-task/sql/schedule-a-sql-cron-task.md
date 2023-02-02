@@ -1,12 +1,12 @@
 # Schedule a SQL cron task
 
-WayScript allows you to configure your Lair to schedule task execution in minutes.
+WayScript allows you to configure your [Lair](../../platform/lairs/) to schedule task execution in minutes.
 
-### Create `sql-cron.py`
+### Create `task.py`
 
-Use the boilerplate code below to create a `sql-cron.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create a `task.py` file in your [Lair’s](../../platform/lairs/) root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your [workspace](../../platform/workspace/) file system.
 
-#### Boilerplate `sql-cron.py`
+#### Boilerplate task`.py`
 
 ```python
 import os
@@ -31,7 +31,7 @@ myresult = mycursor.fetchall()
 print(myresult)
 ```
 
-#### create a `requirements.txt` file:
+#### Create a `requirements.txt` file:
 
 ```python
 mysql-connector-python
@@ -42,21 +42,32 @@ mysql-connector-python
 Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name for your trigger, input the following run command, and set an interval or custom cron syntax for your task. See [Triggers](../../platform/lairs/triggers.md) for more details.
 
 ```
-python sql-cron.py
+python task.py
 ```
 
-<figure><img src="../../.gitbook/assets/cron-sql.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/python-cron" alt=""><figcaption></figcaption></figure>
 
 ### Test your task execution in development environment
 
-Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
+Press “Test” to execute the run command and start your task’s process execution. A process tab should open in your Terminal view.&#x20;
 
-Be sure to install your requirements.txt via your terminal.
+<figure><img src="../../.gitbook/assets/python-cron-task.png" alt=""><figcaption><p>Press Test in your Triggers view to test your cron Trigger. When ready, deploy it to production!</p></figcaption></figure>
+
+Be sure to install your requirements.txt via your [terminal](../../platform/lairs/terminal.md).
 
 ```
 pip install -r requirements.txt
+pip freeze > requirements.txt
 ```
 
-### Deploy to production environment
+### Deploy to a Production environment
 
-Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../../platform/lairs/deployments.md) for more details.
+Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, Go to the [Deploy Panel](../../platform/lairs/deployments.md) to deploy a production instance of your task.&#x20;
+
+{% hint style="info" %}
+In order for your scheduled task to run, you must [Deploy](../../platform/lairs/deployments.md) the lair!
+{% endhint %}
+
+### View Logs
+
+[Logs](../../platform/lairs/logs.md) are automatically stored for both Development tests and Production runs of your task.
