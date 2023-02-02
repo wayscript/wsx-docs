@@ -1,10 +1,10 @@
 # Selenium Web Scraper
 
-### Create `selenium-app.py`
+### Create `task.py`
 
-Use the boilerplate code below to create a `selenium-app.py` file. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create a `task.py` file. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
 
-#### Boilerplate `selenium-app.py`
+#### Boilerplate `task.py`
 
 ```python
 from selenium import webdriver
@@ -43,24 +43,30 @@ driver.quit()
 Open your Lair’s `.triggers` file and add a new `cron` trigger. Create a name for your trigger, input the following run command, and set an interval or custom cron syntax for your task. See [Triggers](../../platform/lairs/triggers.md) for more details.
 
 ```
-python selenium-app.py
+python task.py
 ```
 
-### Test your task execution in development environment
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.35.21 PM.png" alt=""><figcaption><p>Example Cron Trigger Setup</p></figcaption></figure>
 
-Press “Run” to execute the run command and start your task’s process execution. Open your “Processes” list and select the running process to see the generated log.
+### Test your task execution in the development environment
 
-### Deploy to production environment
+Press “Test” to execute the run command and start your task’s process execution. A process tab should open in your Terminal view.&#x20;
 
-Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, press “Deploy” to create a production environment for your task. See [Hosted environments](../../platform/lairs/deployments.md) for more details.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-02 at 3.37.35 PM.png" alt=""><figcaption><p>Press Test in your Triggers view to test your cron Trigger. When ready, deploy it to production!</p></figcaption></figure>
+
+### Deploy to a Production environment
+
+Your task will not be scheduled within your Lair’s development environment. Once you have finished testing, Go to the [Deploy Panel](../../platform/lairs/deployments.md) to deploy a production instance of your task.&#x20;
 
 {% hint style="info" %}
 In order for your scheduled task to run, you must [Deploy](../../platform/lairs/deployments.md) the lair!
 {% endhint %}
 
-#### Ad
+### View Logs
 
-#### Additional notes
+[Logs](../../platform/lairs/logs.md) are automatically stored for both Development tests and Production runs of your task.&#x20;
+
+### Additional Notes
 
 For additional notes on using headless browsers, please visit our [code snippets](../../resources/code-snippets/headless-browser-selenium.md) page.
 
