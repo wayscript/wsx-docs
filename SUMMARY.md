@@ -2,7 +2,15 @@
 
 * [What is WayScript?](README.md)
 * [Quickstart: Schedule a task](quickstart-schedule-task/README.md)
-  * [Schedule a Python cron task](quickstart-schedule-task/schedule-a-task.md)
+  * [Python](quickstart-schedule-task/python/README.md)
+    * [Schedule a Python cron task](quickstart-schedule-task/python/schedule-a-task.md)
+    * [Selenium Web Scraper](quickstart-schedule-task/python/selenium-web-scraper.md)
+  * [JavaScript / Node](quickstart-schedule-task/javascript-node/README.md)
+    * [Schedule a JavaScript cron task](quickstart-schedule-task/javascript-node/schedule-a-javascript-cron-task.md)
+  * [Golang](quickstart-schedule-task/golang/README.md)
+    * [Schedule a go cron task](quickstart-schedule-task/golang/schedule-a-go-cron-task.md)
+  * [SQL](quickstart-schedule-task/sql/README.md)
+    * [Schedule a SQL cron task](quickstart-schedule-task/sql/schedule-a-sql-cron-task.md)
 * [Quickstart: Spin up a web server or framework](quickstart-spin-up-server/README.md)
   * [Setup a Flask Server (Python)](quickstart-spin-up-server/host-a-flask-server.md)
   * [Setup a FastAPI Server (Python)](quickstart-spin-up-server/set-up-fastapi-server.md)
@@ -11,7 +19,8 @@
   * [Setup a GO Server (GOLang)](quickstart-spin-up-server/setup-a-go-server-golang.md)
 * [Quickstart: Create a webhook or microservice](quickstart-webhook-microservice/README.md)
   * [Build a Microservice (Python)](quickstart-webhook-microservice/build-an-api.md)
-  * [Build a Microservice ( JavaScript )](quickstart-webhook-microservice/build-a-microservice-javascript.md)
+  * [Build a Microservice (JavaScript)](quickstart-webhook-microservice/build-a-microservice-javascript.md)
+  * [Build a Microservice (Golang)](quickstart-webhook-microservice/build-a-microservice-golang.md)
 
 ## Platform
 

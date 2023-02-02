@@ -25,8 +25,8 @@ Now that you have created a Lair, follow one of our 5-minute tutorial to get sta
 [build-an-api.md](../quickstart-webhook-microservice/build-an-api.md)
 {% endcontent-ref %}
 
-{% content-ref url="../quickstart-schedule-task/schedule-a-task.md" %}
-[schedule-a-task.md](../quickstart-schedule-task/schedule-a-task.md)
+{% content-ref url="../quickstart-schedule-task/python/schedule-a-task.md" %}
+[schedule-a-task.md](../quickstart-schedule-task/python/schedule-a-task.md)
 {% endcontent-ref %}
 
 {% content-ref url="host-a-flask-server.md" %}
