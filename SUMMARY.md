@@ -29,6 +29,7 @@
     * [Setup a Node Express Server (NodeJS)](quickstart-spin-up-server/setup-a-node-express-server-nodejs.md)
   * [Go](quickstart-spin-up-server/go/README.md)
     * [Setup a GO Server (GOLang)](quickstart-spin-up-server/setup-a-go-server-golang.md)
+* [Publish Internal Templates](publish-internal-templates.md)
 
 ## Platform
 
