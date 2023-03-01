@@ -66,6 +66,7 @@
 * [WayScript SDK](using-wayscript/sdk/README.md)
   * [Example: identify requester to protected endpoints](using-wayscript/sdk/example-identify-requester-to-protected-endpoints.md)
   * [Example: send response to http trigger](using-wayscript/sdk/example-send-response-to-http-trigger.md)
+  * [WayScript Environment Variables](using-wayscript/sdk/wayscript-environment-variables.md)
 * [Self-Hosting](using-wayscript/self-hosting.md)
 
 ## Resources
