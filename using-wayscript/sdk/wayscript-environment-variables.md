@@ -14,3 +14,7 @@ description: >-
 | `WAYSCRIPT_LAIR_URL`                       | The URL of the default lair endpoint                 |
 | `WAYSCRIPT_ORIGIN`                         | The URL of the WayScript API server                  |
 | `WS_PROCESS_ID`                            | The UUID of the process container                    |
+
+Any Secret Variables you added will also be present in the environment.
+
+You can also add variables with you lair's `.env` file.
