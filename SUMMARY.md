@@ -4,6 +4,7 @@
 * [Quickstart: Schedule a task](quickstart-schedule-task/README.md)
   * [Python](quickstart-schedule-task/python/README.md)
     * [Schedule a Python cron task](quickstart-schedule-task/python/schedule-a-task.md)
+    * [Snowflake Cron Task](quickstart-schedule-task/python/snowflake-cron-task.md)
     * [Selenium Web Scraper](quickstart-schedule-task/python/selenium-web-scraper.md)
   * [JavaScript / Node](quickstart-schedule-task/javascript-node/README.md)
     * [Schedule a JavaScript cron task](quickstart-schedule-task/javascript-node/schedule-a-javascript-cron-task.md)
