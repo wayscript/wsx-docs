@@ -53,7 +53,7 @@ If you receive a 403 response when accessing your endpoint, and are providing an
 
 Navigate to the 🔗 Endpoint tab in your Lair toolbar to view a list of all generated endpoints for your Lair.
 
-![](<../../.gitbook/assets/Screen Shot 2022-01-24 at 12.11.56 PM.png>)
+<figure><img src="../../.gitbook/assets/endpoints_table.png" alt=""><figcaption></figcaption></figure>
 
 #### Setting endpoints to be publicly accessible
 
