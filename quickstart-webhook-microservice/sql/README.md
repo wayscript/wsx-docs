@@ -2,6 +2,6 @@
 
 Select a use case:
 
-{% content-ref url="build-a-microservice-sql.md" %}
-[build-a-microservice-sql.md](build-a-microservice-sql.md)
+{% content-ref url="build-sql-microservices.md" %}
+[build-sql-microservices.md](build-sql-microservices.md)
 {% endcontent-ref %}

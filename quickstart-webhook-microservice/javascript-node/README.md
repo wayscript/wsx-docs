@@ -2,6 +2,6 @@
 
 Select a user case:
 
-{% content-ref url="../build-a-microservice-javascript.md" %}
-[build-a-microservice-javascript.md](../build-a-microservice-javascript.md)
+{% content-ref url="build-javascript-microservices.md" %}
+[build-javascript-microservices.md](build-javascript-microservices.md)
 {% endcontent-ref %}

@@ -1,4 +1,4 @@
-# Build a Microservice (Golang)
+# Build golang microservices
 
 WayScript allows you to configure your Lair to build an serverless API endpoint in minutes.
 
@@ -10,9 +10,9 @@ For HTTP trigger go functionality, this github repo needs to be added to your la
 
 ### Create `main.go`
 
-Use the boilerplate code below to create an `main.go` file in your Lair’s root directory. See [File system](../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create an `main.go` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
 
-<figure><img src="../.gitbook/assets/create-file-go.png" alt=""><figcaption><p>Create a file called main.go</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/create-file-go.png" alt=""><figcaption><p>Create a file called main.go</p></figcaption></figure>
 
 #### Boilerplate `main.go`
 
@@ -55,13 +55,13 @@ func main() {
 
 ### Configure `http` trigger
 
-Open your Lair’s [Triggers Panel](../platform/lairs/triggers.md) and add a new `http` trigger. Create a name for your trigger and input the following run command. See [Triggers](../platform/lairs/triggers.md) for more details.
+Open your Lair’s [Triggers Panel](../../platform/lairs/triggers.md) and add a new `http` trigger. Create a name for your trigger and input the following run command. See [Triggers](../../platform/lairs/triggers.md) for more details.
 
 ```bash
 go run main.go
 ```
 
-<figure><img src="../.gitbook/assets/http-trigger-go.png" alt=""><figcaption><p>Example HTTP Trigger Setup</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/http-trigger-go.png" alt=""><figcaption><p>Example HTTP Trigger Setup</p></figcaption></figure>
 
 `Trigger Name` - You can create any name you want for organization.&#x20;
 
@@ -81,8 +81,8 @@ For a cloneable HTTP trigger Golang template, please visit our [public lair](htt
 
 ### Deploy to production environment
 
-Once you have finished testing, press “Deploy” to create a production environment for your API. Select `<Lair_name>.prod` in the Lair selector menu and view the `http` trigger to access your API’s production endpoint. See [Hosted environments](../platform/lairs/deployments.md) for more details.
+Once you have finished testing, press “Deploy” to create a production environment for your API. Select `<Lair_name>.prod` in the Lair selector menu and view the `http` trigger to access your API’s production endpoint. See [Hosted environments](../../platform/lairs/deployments.md) for more details.
 
 {% hint style="warning" %}
-By default, your Lair's endpoints are protected against unauthenticated requests. See [endpoints.md](../platform/lairs/endpoints.md "mention") on how to public expose your endpoints or authenticate using your application key.
+By default, your Lair's endpoints are protected against unauthenticated requests. See [endpoints.md](../../platform/lairs/endpoints.md "mention") on how to public expose your endpoints or authenticate using your application key.
 {% endhint %}

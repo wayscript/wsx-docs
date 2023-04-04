@@ -2,6 +2,6 @@
 
 Select a use case:
 
-{% content-ref url="../build-a-microservice-golang.md" %}
-[build-a-microservice-golang.md](../build-a-microservice-golang.md)
+{% content-ref url="build-golang-microservices.md" %}
+[build-golang-microservices.md](build-golang-microservices.md)
 {% endcontent-ref %}

@@ -2,6 +2,6 @@
 
 Walk through examples:
 
-{% content-ref url="schedule-a-go-cron-task.md" %}
-[schedule-a-go-cron-task.md](schedule-a-go-cron-task.md)
+{% content-ref url="schedule-golang-cron-tasks.md" %}
+[schedule-golang-cron-tasks.md](schedule-golang-cron-tasks.md)
 {% endcontent-ref %}

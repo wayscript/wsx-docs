@@ -2,6 +2,6 @@
 
 Walk through examples:
 
-{% content-ref url="schedule-a-sql-cron-task.md" %}
-[schedule-a-sql-cron-task.md](schedule-a-sql-cron-task.md)
+{% content-ref url="schedule-sql-cron-tasks.md" %}
+[schedule-sql-cron-tasks.md](schedule-sql-cron-tasks.md)
 {% endcontent-ref %}

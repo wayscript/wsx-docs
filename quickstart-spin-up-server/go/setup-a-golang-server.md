@@ -1,4 +1,4 @@
-# Setup a GO Server (GOLang)
+# Setup a golang server
 
 WayScript allows you to configure your Lair to host a running microservice in minutes. Follow this guide to setup a simple GOLang app in your Lair.
 
@@ -6,7 +6,7 @@ WayScript allows you to configure your Lair to host a running microservice in mi
 
 ### Create required GO files
 
-Use the boilerplate code below to create three files: `main.go`, `go.mod` , and `go.sum` in your Lair’s root directory. Or if you have an existing project, copy or clone your project files into your Lair’s directory. See [File system](../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create three files: `main.go`, `go.mod` , and `go.sum` in your Lair’s root directory. Or if you have an existing project, copy or clone your project files into your Lair’s directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
 
 #### Boilerplate main.go
 
@@ -171,7 +171,7 @@ gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C
 
 ### Configure `deploy` trigger
 
-Open your Lair’s `.triggers` file and add a new `deploy` trigger. Create a name for your trigger and input the following run command and port number `8080` (or modified command and port number based on your app requirements). See [Triggers](../platform/lairs/triggers.md) for more details.
+Open your Lair’s `.triggers` file and add a new `deploy` trigger. Create a name for your trigger and input the following run command and port number `8080` (or modified command and port number based on your app requirements). See [Triggers](../../platform/lairs/triggers.md) for more details.
 
 ```
 go run main.go
@@ -183,12 +183,12 @@ Make sure to set the Port to 8080 on your Deploy Trigger!
 
 ### Test app in development environment
 
-Press “Test” to execute the run command and start your web server process (see [Processes](../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your GO app in action!
+Press “Test” to execute the run command and start your web server process (see [Processes](../../platform/lairs/processes.md) for more details). Navigate to the `*.wayscript.cloud` endpoint generated to see your GO app in action!
 
 ### Deploy to production environment
 
 Once you have finished testing, press “Deploy” to create a production environment for your GO app.&#x20;
 
 {% hint style="warning" %}
-By default, your Lair's endpoints are protected against unauthenticated requests. See [endpoints.md](../platform/lairs/endpoints.md "mention") on how to public expose your endpoints or authenticate using your application key.
+By default, your Lair's endpoints are protected against unauthenticated requests. See [endpoints.md](../../platform/lairs/endpoints.md "mention") on how to public expose your endpoints or authenticate using your application key.
 {% endhint %}
