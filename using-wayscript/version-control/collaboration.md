@@ -5,7 +5,7 @@ description: >-
   simultaneously requires provisioning multiple Lairs.
 ---
 
-# As a Team
+# Collaboration
 
 ### Allocating Lairs for a Development Project
 
@@ -30,4 +30,4 @@ When a feature branch is ready to be merged to the main branch, use your normal 
 3. Connect your lair to the local directory containing your latest code
 4. Wait for updates to finish syncing to your Lair development environment
 5. Inspect your Lair development environment and ensure changes are correct.
-6. [Deploy](as-a-team.md#deployment) your lair to production.
+6. [Deploy](collaboration.md#deployment) your lair to production.

@@ -63,12 +63,12 @@
 
 * [Desktop App](using-wayscript/desktop-app/README.md)
   * [Working with a Local Directory](using-wayscript/desktop-app/working-with-a-local-directory.md)
-* [With a Version Control System](using-wayscript/with-a-version-control-system/README.md)
-  * [As a Team](using-wayscript/with-a-version-control-system/as-a-team.md)
 * [WayScript SDK](using-wayscript/sdk/README.md)
   * [Example: identify requester to protected endpoints](using-wayscript/sdk/example-identify-requester-to-protected-endpoints.md)
   * [Example: send response to http trigger](using-wayscript/sdk/example-send-response-to-http-trigger.md)
   * [WayScript Environment Variables](using-wayscript/sdk/wayscript-environment-variables.md)
+* [Version Control](using-wayscript/version-control/README.md)
+  * [Collaboration](using-wayscript/version-control/collaboration.md)
 * [Self-Hosting](using-wayscript/self-hosting.md)
 
 ## Resources
