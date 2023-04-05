@@ -9,7 +9,7 @@ description: >-
 
 ### Connecting to Local Directory
 
-When you open the Lair development tab, if the lair is not already connected to a local directory, you will be prompted with a modal to do so. You can always "Skip For Now". Otherwise, you have the options:
+When you open the Lair development tab, if the lair is not already connected to a local directory, you will be prompted with a modal to do so. You can always "Skip For Now". Otherwise, there are two options to connect.
 
 * Create a new folder
   * Files in Lair's development environment are downloaded to seed this new folder
@@ -17,7 +17,7 @@ When you open the Lair development tab, if the lair is not already connected to 
   * Files in Selected folder will replace what exists in the Lair's development environment
 
 {% hint style="info" %}
-You set up or update your local directory connection anytime from the Lair Configuration Tab
+You can set up or update your local directory connection anytime from the Lair Configuration Tab
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/local_setup.png" alt=""><figcaption></figcaption></figure>
@@ -28,9 +28,9 @@ Once your Lair is connected to a local directory, you are free edit your files l
 
 ### Syncing Changes
 
-Changes are synced in both directions as files are updated in the local directory or directly in the hosted Lair environment. In any case where it's not certain what the most recent change is, the local directory serves as the source of truth.
+Changes are synced in both directions as files are updated in the local directory or directly in the hosted Lair environment. In any case where it is not certain what the most recent change is, the local directory serves as the source of truth.
 
-1. Change initiated locally. WayScript watches for changes to the local directory, and when change events are fired, the same changes are sent to the hosted Lair environment
+1. WayScript watches for changes to the local directory, and when change events are fired, the same changes are sent to the hosted Lair environment
 2. When files are changed in the hosted Lair environment, WayScript sends notifications to the Application. If these changes are newer than latest local changes, the local directory will be updated
 
 #### Auto-Sync

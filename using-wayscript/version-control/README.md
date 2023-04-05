@@ -4,13 +4,13 @@ description: >-
   fit with your own version control system (VCS).
 ---
 
-# With a Version Control System
+# Version Control
 
 ### Lairs vs Repositories
 
-A code repository typically has a durable "main" branch, and other, temporary, feature branches. Once the code is production-ready, it is only the "main" branch that is typically "pushed" to production. Code is only merged into this "main" branch with confidence that it is production-ready.
+A code repository typically has a durable 'main' branch, and other, temporary, feature branches. Once the code is production-ready, it is only the 'main' branch that is typically 'pushed' to production. Code is only merged into this 'main' branch with confidence that it is production-ready.
 
-A WayScript lair has two hosted environments: **development** and **production**, with a [deployment](../../platform/lairs/deployments.md) mechanism for 'pushing' the development environment into production. Just as a repository branch is a representation of a file system comprising your code, each lair environment has a single file system.&#x20;
+A WayScript lair has two hosted environments: **development** and **production**, with a [deployment](../../platform/lairs/deployments.md) mechanism for 'pushing' the development environment into production. Just as a repository branch is a representation of a file system comprising your code, each Lair environment has a single file system.&#x20;
 
 ### Working with Lairs and Repositories together
 

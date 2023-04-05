@@ -14,5 +14,5 @@ description: >-
 
 ### Updating
 
-1. Updates to the desktop application will be downloaded automatically when new versions are released. When an update is downloaded, you will se a prompt to restart the application to use the latest version.
+1. Updates to the desktop application will be downloaded automatically when new versions are released. When an update is downloaded, you will see a prompt to restart the application to use the latest version.
 
