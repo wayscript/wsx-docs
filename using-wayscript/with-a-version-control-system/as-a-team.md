@@ -15,7 +15,7 @@ When working with an external VCS, we recommend **one Lair designated to only th
 To keep lairs orgnaized, use naming conventions for such as`{repo_name}-{dev_name}`, and/or add tags to your lairs.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/lairs_table (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/lairs_table.png" alt=""><figcaption></figcaption></figure>
 
 ### Development
 
