@@ -63,6 +63,7 @@
 
 * [Desktop App](using-wayscript/desktop-app/README.md)
   * [Working with a Local Directory](using-wayscript/desktop-app/working-with-a-local-directory.md)
+* [WayScript HTTP API](using-wayscript/wayscript-http-api.md)
 * [WayScript SDK](using-wayscript/sdk/README.md)
   * [Example: identify requester to protected endpoints](using-wayscript/sdk/example-identify-requester-to-protected-endpoints.md)
   * [Example: send response to http trigger](using-wayscript/sdk/example-send-response-to-http-trigger.md)

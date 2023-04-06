@@ -4,6 +4,7 @@ Your Lairs have exclusive access to the WayScript SDK, which offers a the follow
 
 * `wayscript.context` - access process execution metadata, such as event payload
 * `wayscript.triggers` - call trigger-specific methods
+* `wayscript.secret_manager` - update secrets in your vault
 
 ### Python
 
