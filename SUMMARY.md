@@ -25,7 +25,7 @@
   * [Python](quickstart-spin-up-server/python/README.md)
     * [Setup a Flask server](quickstart-spin-up-server/host-a-flask-server.md)
     * [Setup a Django server](quickstart-spin-up-server/python/setup-a-django-server.md)
-    * [Setup a FastAPI sython Server](quickstart-spin-up-server/set-up-fastapi-server.md)
+    * [Setup a FastAPI Python Server](quickstart-spin-up-server/set-up-fastapi-server.md)
   * [JavaScript](quickstart-spin-up-server/javascript/README.md)
     * [Setup a Node Express server](quickstart-spin-up-server/javascript/setup-a-node-express-server.md)
   * [Go](quickstart-spin-up-server/go/README.md)
