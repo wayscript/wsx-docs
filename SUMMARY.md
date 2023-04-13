@@ -76,6 +76,7 @@
 
 * [Code snippets](resources/code-snippets/README.md)
   * [Headless browser (Selenium)](resources/code-snippets/headless-browser-selenium.md)
+  * [Connect to a Postgres Database](resources/code-snippets/headless-browser-selenium-1.md)
 * [Security](resources/security.md)
 * [IP Addresses](resources/ip-addresses.md)
 * [Supported Languages](resources/supported-languages.md)
