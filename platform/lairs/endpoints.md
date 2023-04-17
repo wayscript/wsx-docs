@@ -53,8 +53,18 @@ If you receive a 403 response when accessing your endpoint, and are providing an
 
 Navigate to the 🔗 Endpoint tab in your Lair toolbar to view a list of all generated endpoints for your Lair.
 
-<figure><img src="../../.gitbook/assets/endpoints_table.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/endpoints.png" alt=""><figcaption></figcaption></figure>
 
 #### Setting endpoints to be publicly accessible
 
 Toggle the selector to allow public access to your Lair's generated endpoints.
+
+### Changing Lair's Subdomain
+
+When a lair is created, a unique subdomain is automatically assigned. This subdomain can be changed by clicking the "pencil" icon under the "Subdomain" header on the "Endpoints" tab.
+
+<figure><img src="../../.gitbook/assets/change_friendly_name.png" alt=""><figcaption><p>friendly names must be at least six characters long and follow url requirements</p></figcaption></figure>
+
+{% hint style="info" %}
+Changing the subdomain will not update the production environment's endpoints until the lair is re-deployed.
+{% endhint %}
