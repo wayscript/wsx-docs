@@ -44,6 +44,8 @@
   * [Endpoints](platform/lairs/endpoints.md)
   * [Environment variables](platform/lairs/environment-variables.md)
   * [Terminal](platform/lairs/terminal.md)
+  * [Tables](platform/lairs/tables/README.md)
+    * [Connect to Airbyte](platform/lairs/tables/connect-to-airbyte.md)
   * [Alerts](platform/lairs/alerts.md)
   * [Publishing](platform/lairs/publishing.md)
 * [Workspaces](platform/workspace/README.md)
