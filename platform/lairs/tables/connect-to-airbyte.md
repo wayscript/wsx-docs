@@ -4,6 +4,8 @@
 Tables are currently in Alpha release. To try out this feature and join the Alpha, please contact us at [team@wayscript.com](mailto:team@wayscript.com) with the subject line “WayScript Tables Alpha”.
 {% endhint %}
 
+{% embed url="https://youtu.be/vrw53SwyoAY" %}
+
 Use WayScript Tables as a Postgres data destination for your Airbyte connections. Follow these instructions to set up the connection.
 
 1. Login to [Airbyte](https://airbyte.com/)
