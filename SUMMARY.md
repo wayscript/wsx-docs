@@ -47,7 +47,7 @@
   * [Tables](platform/lairs/tables/README.md)
     * [Connect to Airbyte](platform/lairs/tables/connect-to-airbyte.md)
   * [Alerts](platform/lairs/alerts.md)
-  * [Publishing](platform/lairs/publishing/README.md)
+  * [Publishing](platform/lairs/publishing.md)
     * [Publish to Public Endpoint](platform/lairs/publishing/publish-to-public-endpoint.md)
     * [Publish to Workspace](platform/lairs/publishing/publish-to-workspace.md)
 * [Workspaces](platform/workspace/README.md)

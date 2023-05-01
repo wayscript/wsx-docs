@@ -12,6 +12,6 @@ When a Lair is published, it's [Code](platform/lairs/file-system.md), Packages, 
 
 ### Publishing Your Template
 
-Inside of a Lair, go to Publish in the Settings Tab. Click the [Publish](platform/lairs/publishing/) Button (top right) and toggle `Publish to your workspace template library.` &#x20;
+Inside of a Lair, go to Publish in the Settings Tab. Click the [Publish](platform/lairs/publishing.md) Button (top right) and toggle `Publish to your workspace template library.` &#x20;
 
 From your Lair Overview, your template will now be available under `Workspace Templates` when a New Lair is created.&#x20;
