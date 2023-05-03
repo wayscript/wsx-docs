@@ -2,7 +2,7 @@
 
 Wayscript supports and provides SDKs (see [sdk](../using-wayscript/sdk/ "mention")) in the following languages:
 
-* Python 3.10
+* Python 3.11
 * Node v.6.15.0
 
 Wayscript additionally supports the following languages:&#x20;
