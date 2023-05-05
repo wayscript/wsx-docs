@@ -1,11 +1,11 @@
 # Supported Languages
 
-Wayscript supports and provides SDKs (see [sdk](../using-wayscript/sdk/ "mention")) in the following languages:
+WayScript supports and provides SDKs (see [sdk](../using-wayscript/sdk/ "mention")) in the following languages:
 
 * Python 3.11
 * Node v.6.15.0
 
-Wayscript additionally supports the following languages:&#x20;
+WayScript additionally supports the following languages:&#x20;
 
 {% hint style="warning" %}
 support for the following languages are still in beta. Please report any issues to  [support@wayscript.com](mailto:support@wayscript.com)
@@ -16,6 +16,9 @@ support for the following languages are still in beta. Please report any issues 
 * Java 11
 * PHP 7.4
 * R 4.04
+* C# (.NET 6.0.16)
+* F# (.NET 6.0.16)
+* Visual Basic (.NET 6.0.16)
 
 ### Special considerations for PHP
 
