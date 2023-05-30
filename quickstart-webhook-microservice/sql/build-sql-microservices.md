@@ -1,10 +1,10 @@
-# Build a Microservice (SQL)
+# Build SQL microservices
 
 WayScript allows you to configure your Lair to build an serverless API endpoint in minutes.
 
 ### Create `task.py`
 
-Use the boilerplate code below to create an `task.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create an `task.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 <figure><img src="../../.gitbook/assets/create-task-python.png" alt=""><figcaption><p>Create a task.py file</p></figcaption></figure>
 

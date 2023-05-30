@@ -11,7 +11,7 @@ A process can be executed in the following ways:
 * Run command entered into the terminal - see [Terminal](terminal.md) for more details
 
 {% hint style="info" %}
-Your processes are executed against your Lair’s remote file system, not the files on your local machine. If your process execution does not reflect file changes made locally, you must first “Push” your file system. See [file-system.md](file-system.md "mention") for more details on file sync.
+Your processes are executed against your Lair’s remote file system, not the files on your local machine. If your process execution does not reflect file changes made locally, you must first “Push” your file system. See [file-system](file-system/ "mention") for more details on file sync.
 {% endhint %}
 
 ### Viewing running processes

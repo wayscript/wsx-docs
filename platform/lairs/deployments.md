@@ -5,7 +5,7 @@ Your Lair is configured with two hosted environments: **development and producti
 Both development and production environments use WayScript’s base container image (see [Lairs](./) for more details), so tools that have been tested on your development environment will have identical execution without any added configuration required. However, there are a few key operational distinction between development and production environments:
 
 * Triggers are not invoked in development environments. You must use manual invocations and test events in your Lair’s development environment to test your triggers’ functionality. See [Triggers](triggers.md) for more details.
-* Files cannot be directly modified in production environments. Please modify files in your Lair’s development environment and then deploy to your production environment. See [File system](file-system.md) for more details.
+* Files cannot be directly modified in production environments. Please modify files in your Lair’s development environment and then deploy to your production environment. See [File system](file-system/) for more details.
 * WayScript will generate different endpoints for your development and production environments. Please ensure you are using the correct [endpoint](endpoints.md) when accessing your tools.
 
 {% hint style="warning" %}
@@ -55,5 +55,5 @@ If you install packages using your Lair terminal (e.g., through `pip install`) w
 ```
 
 {% hint style="warning" %}
-When using local file sync, you must “Fetch” and “Pull” after using `pip freeze` to see your `requirements.txt` file in your Lair’s file system. See [File system](file-system.md) more details.
+When using local file sync, you must “Fetch” and “Pull” after using `pip freeze` to see your `requirements.txt` file in your Lair’s file system. See [File system](file-system/) more details.
 {% endhint %}

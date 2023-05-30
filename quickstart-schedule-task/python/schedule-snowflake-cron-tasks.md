@@ -1,10 +1,10 @@
-# Snowflake Cron Task
+# Schedule Snowflake cron tasks
 
 WayScript allows you to create connections to services and use their services all from within WayScript lairs.
 
 ### Create `query-snowflake.py`
 
-Use the boilerplate code below to create an `query-snowflake.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create an `query-snowflake.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 Boilerplate `query-snowflake.py`
 

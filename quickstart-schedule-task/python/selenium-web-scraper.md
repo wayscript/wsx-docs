@@ -2,7 +2,7 @@
 
 ### Create `task.py`
 
-Use the boilerplate code below to create a `task.py` file. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create a `task.py` file. See [File system](../../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 #### Boilerplate `task.py`
 

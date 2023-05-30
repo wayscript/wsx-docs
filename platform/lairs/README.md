@@ -35,8 +35,14 @@ You can also create a Lair from a template, or a GitHub URL. If you are creating
 
 #### **Duplicating a Lair**
 
-Lairs can be duplicated from your “Lairs” view through the right-click menu. The files will be duplicated from a Lair’s development environment, not its production environment. See [File system](file-system.md) and [Hosted environments](deployments.md) for more details.
+Lairs can be duplicated from your “Lairs” view through the right-click menu. The files will be duplicated from a Lair’s development environment, not its production environment. See [File system](file-system/) and [Hosted environments](deployments.md) for more details.
 
 #### **Deleting a Lair**
 
 Lairs can be deleted from your “Lairs” view through the right-click menu. Lairs are deleted for all members of the workspace and cannot be recovered, so please exercise caution.
+
+
+
+{% hint style="info" %}
+
+{% endhint %}

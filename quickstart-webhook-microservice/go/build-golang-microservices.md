@@ -10,7 +10,7 @@ For HTTP trigger go functionality, this github repo needs to be added to your la
 
 ### Create `main.go`
 
-Use the boilerplate code below to create an `main.go` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create an `main.go` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 <figure><img src="../../.gitbook/assets/create-file-go.png" alt=""><figcaption><p>Create a file called main.go</p></figcaption></figure>
 

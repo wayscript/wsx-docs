@@ -34,7 +34,7 @@ You may not access files within other Lair directories from a selected Lair. Any
 
 Create a file or directory within your Lair's file system by pressing ＋ next to the search bar.&#x20;
 
-![](../../.gitbook/assets/image.png)
+![](../../../.gitbook/assets/image.png)
 
 You can also upload a file or directory from your local device's file system by dragging it into your Lair's file system.&#x20;
 
@@ -60,7 +60,7 @@ When using the WayScript desktop app, your file system exists in two places:
 The WayScript desktop app creates and accesses files on your local device and then syncs those files to your remote infrastructure.
 
 {% hint style="info" %}
-Both your remote and local file systems are connected to your Lair’s development environment. Please see [Hosted environments](deployments.md) for more details on your Lair’s environments.
+Both your remote and local file systems are connected to your Lair’s development environment. Please see [Hosted environments](../deployments.md) for more details on your Lair’s environments.
 {% endhint %}
 
 **Setting up your file sync between remote and local**

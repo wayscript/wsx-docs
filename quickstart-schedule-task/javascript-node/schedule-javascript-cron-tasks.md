@@ -1,10 +1,10 @@
-# Schedule a JavaScript cron task
+# Schedule JavaScript cron tasks
 
 WayScript allows you to configure your Lair to schedule task execution in minutes.
 
 ### Create `send_request.js`
 
-Use the boilerplate code below to create a `send_request.js` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create a `send_request.js` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 #### Boilerplate `send_request.js`
 

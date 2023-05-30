@@ -1,10 +1,10 @@
-# Schedule a Python cron task
+# Schedule Python cron tasks
 
 WayScript allows you to configure your Lair to schedule task execution in minutes.
 
 ### Create `task.py`
 
-Use the boilerplate code below to create a `task.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create a `task.py` file in your Lair’s root directory. See [File system](../../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 #### Boilerplate `task.py`
 

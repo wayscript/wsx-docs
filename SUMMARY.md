@@ -35,7 +35,8 @@
 ## Platform
 
 * [Lairs](platform/lairs/README.md)
-  * [File system](platform/lairs/file-system.md)
+  * [File system](platform/lairs/file-system/README.md)
+    * [Download](platform/lairs/file-system/download.md)
   * [Triggers](platform/lairs/triggers.md)
   * [Deployments](platform/lairs/deployments.md)
   * [Logs](platform/lairs/logs.md)

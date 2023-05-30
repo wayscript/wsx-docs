@@ -1,10 +1,10 @@
-# Build a Microservice (Python)
+# Build Python microservices
 
 WayScript allows you to configure your Lair to build an serverless API endpoint in minutes.
 
 ### Create `api.py`
 
-Use the boilerplate code below to create an `api.py` file in your Lair’s root directory. See [File system](../platform/lairs/file-system.md) for more details on how to manipulate files in your workspace file system.
+Use the boilerplate code below to create an `api.py` file in your Lair’s root directory. See [File system](../platform/lairs/file-system/) for more details on how to manipulate files in your workspace file system.
 
 <figure><img src="../.gitbook/assets/create-file.png" alt=""><figcaption><p>Create a file called api.py</p></figcaption></figure>
 

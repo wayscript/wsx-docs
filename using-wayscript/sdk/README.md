@@ -14,15 +14,7 @@ Your Lairs have exclusive access to the WayScript SDK, which offers a the follow
 from wayscript import context
 ```
 
-| Method                                                     | Description                                            | Parameters               | Return Type |
-| ---------------------------------------------------------- | ------------------------------------------------------ | ------------------------ | ----------- |
-| `context.get_event()`                                      | Get request event payload                              | \<none>                  | `dict`      |
-| `context.get_lair()`                                       | Get Lair name                                          | \<none>                  | `dict`      |
-| `context.get_lair_trigger()`                               | Get trigger name                                       | \<none>                  | `dict`      |
-| context.get\_lair\_url()                                   | Get default lair endpoint                              | \<none>                  | `str`       |
-| `context.get_process()`                                    | Get process id                                         | \<none>                  | `dict`      |
-| `context.get_user_by_application_key(`<`application_key>)` | Get metadata for workspace member from application key | `application_key`: `str` | `dict`      |
-| `context.get_workspace()`                                  | Get Workspace name                                     | \<none>                  | `dict`      |
+<table><thead><tr><th width="311">Method</th><th width="254">Description</th><th width="152">Parameters</th><th>Return Type</th></tr></thead><tbody><tr><td><code>context.get_event()</code></td><td>Get request event payload</td><td>&#x3C;none></td><td><code>dict</code></td></tr><tr><td><code>context.get_lair()</code></td><td>Get Lair name</td><td>&#x3C;none></td><td><code>dict</code></td></tr><tr><td><code>context.get_lair_trigger()</code></td><td>Get trigger name</td><td>&#x3C;none></td><td><code>dict</code></td></tr><tr><td>context.get_lair_url()</td><td>Get default lair endpoint</td><td>&#x3C;none></td><td><code>str</code></td></tr><tr><td><code>context.get_process()</code></td><td>Get process id</td><td>&#x3C;none></td><td><code>dict</code></td></tr><tr><td><code>context.get_user_by_application_key(</code>&#x3C;<code>application_key>)</code></td><td>Get metadata for workspace member from application key</td><td><code>application_key</code>: <code>str</code></td><td><code>dict</code></td></tr><tr><td><code>context.get_workspace()</code></td><td>Get Workspace name</td><td>&#x3C;none></td><td><code>dict</code></td></tr></tbody></table>
 
 {% hint style="info" %}
 The `get_user_by_application_key` method requires fetching the [application key](../../platform/lairs/endpoints.md) from  the header of the request made to your Lair. We provide an [example](example-identify-requester-to-protected-endpoints.md) on how to access the request header in your tool.&#x20;
@@ -44,9 +36,7 @@ import wayscript.triggers as triggers
 from wayscript import secret_manager
 ```
 
-| Method                                      | Description                    | Parameters                                                                                        | Return Type |
-| ------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------- | ----------- |
-| `secret_manager.set_secret(<key>, <value>)` | Set the value of a lair secret | <ul><li><code>key</code>: <code>str</code></li><li><code>value</code>: <code>str</code></li></ul> | `None`      |
+<table><thead><tr><th width="201">Method</th><th>Description</th><th>Parameters</th><th>Return Type</th></tr></thead><tbody><tr><td><code>secret_manager.set_secret(&#x3C;key>, &#x3C;value>)</code></td><td>Set the value of a lair secret</td><td><ul><li><code>key</code>: <code>str</code></li><li><code>value</code>: <code>str</code></li></ul></td><td><code>None</code></td></tr></tbody></table>
 
 ### JavaScript
 
@@ -56,15 +46,7 @@ const wayscript = require("wayscript");
 
 #### `wayscript.context`
 
-| Method                                               | Description                                            | Parameters                  | Return Type |
-| ---------------------------------------------------- | ------------------------------------------------------ | --------------------------- | ----------- |
-| `context.getEvent()`                                 | Get event payload                                      | \<none>                     | `object`    |
-| `context.getLair()`                                  | Get Lair name                                          | \<none>                     | `object`    |
-| `context.getLairTrigger()`                           | Get trigger name                                       | \<none>                     | `object`    |
-| context.getLairUrl()                                 | Get default lair endpoint                              | \<none>                     | `string`    |
-| `context.getProcess()`                               | Get process id                                         | \<none>                     | `object`    |
-| `context.getUserByApplicationKey(<application_key>)` | Get metadata for workspace member from application key | `application_key`: `string` | `object`    |
-| `context.getWorkspace()`                             | Get Workspace name                                     | \<none>                     | `object`    |
+<table><thead><tr><th width="305">Method</th><th width="256">Description</th><th width="165">Parameters</th><th width="129">Return Type</th></tr></thead><tbody><tr><td><code>context.getEvent()</code></td><td>Get event payload</td><td>&#x3C;none></td><td><code>object</code></td></tr><tr><td><code>context.getLair()</code></td><td>Get Lair name</td><td>&#x3C;none></td><td><code>object</code></td></tr><tr><td><code>context.getLairTrigger()</code></td><td>Get trigger name</td><td>&#x3C;none></td><td><code>object</code></td></tr><tr><td>context.getLairUrl()</td><td>Get default lair endpoint</td><td>&#x3C;none></td><td><code>string</code></td></tr><tr><td><code>context.getProcess()</code></td><td>Get process id</td><td>&#x3C;none></td><td><code>object</code></td></tr><tr><td><code>context.getUserByApplicationKey(&#x3C;application_key>)</code></td><td>Get metadata for workspace member from application key</td><td><code>application_key</code>: <code>string</code></td><td><code>object</code></td></tr><tr><td><code>context.getWorkspace()</code></td><td>Get Workspace name</td><td>&#x3C;none></td><td><code>object</code></td></tr></tbody></table>
 
 {% hint style="info" %}
 The `getUserByApplicationKey` method requires fetching the [application key](../../platform/lairs/endpoints.md) from  the header of the request made to your Lair. We provide an [example](example-identify-requester-to-protected-endpoints.md) on how to access the request header in your tool.&#x20;
@@ -78,9 +60,7 @@ The `getUserByApplicationKey` method requires fetching the [application key](../
 
 #### `wayscript.secret_manager`
 
-| Method                                     | Description                    | Parameters                                                                                              | Return Type |
-| ------------------------------------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------- | ----------- |
-| `secret_manager.setSecret(<key>, <value>)` | Set the value of a lair secret | <ul><li><code>key</code>: <code>string</code></li><li><code>value</code>: <code>string</code></li></ul> | `undefined` |
+<table><thead><tr><th width="201">Method</th><th>Description</th><th>Parameters</th><th>Return Type</th></tr></thead><tbody><tr><td><code>secret_manager.setSecret(&#x3C;key>, &#x3C;value>)</code></td><td>Set the value of a lair secret</td><td><ul><li><code>key</code>: <code>string</code></li><li><code>value</code>: <code>string</code></li></ul></td><td><code>undefined</code></td></tr></tbody></table>
 
 ### Golang&#x20;
 

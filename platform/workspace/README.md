@@ -4,7 +4,7 @@ Your **workspace** is the root directory that contains all your tools that live 
 
 ### **Creating a workspace**
 
-You can create a new workspace after registering your account with WayScript. When using the WayScript desktop app, you will then be directory to choose a workspace folder (see [File system](../lairs/file-system.md) for more details).
+You can create a new workspace after registering your account with WayScript. When using the WayScript desktop app, you will then be directory to choose a workspace folder (see [File system](../lairs/file-system/) for more details).
 
 ![](<../../.gitbook/assets/env-1 (1).png>)
 

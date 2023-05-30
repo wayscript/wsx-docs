@@ -8,7 +8,7 @@ description: >-
 
 Inside WayScript, you can transform your [Lair](platform/lairs/) into a reusable, internal template. This is useful for publishing reusable templates for your team ([scheduled tasks](quickstart-schedule-task/), [microservices, webhooks](quickstart-webhook-microservice/), or [web servers](quickstart-spin-up-server/)).&#x20;
 
-When a Lair is published, it's [Code](platform/lairs/file-system.md), Packages, Documentation, [Alerts](platform/lairs/alerts.md), and [Environment and Secrets Variables](platform/lairs/environment-variables.md).
+When a Lair is published, it's [Code](platform/lairs/file-system/), Packages, Documentation, [Alerts](platform/lairs/alerts.md), and [Environment and Secrets Variables](platform/lairs/environment-variables.md).
 
 ### Publishing Your Template
 
